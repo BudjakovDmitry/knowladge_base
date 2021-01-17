@@ -1,0 +1,6 @@
+# Terminal
+Строка приглашения к вводу выглядит так:
+```
+user_name@computer_name dir %
+```
+где user_name - имя пользователя, computer_name - имя компьютера, dir - имя текущей директории
