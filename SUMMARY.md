@@ -6,5 +6,7 @@
       * [Команды](linux/terminal/COMMANDS.md)
          * [pwd](linux/terminal/PWD.md)
          * [ls](linux/terminal/LS.md)
+         * [clear](linux/terminal/CLEAR.md)
+         * [exit](linux/terminal/EXIT.md)
 * [Markdown](markdown/README.md)
 
