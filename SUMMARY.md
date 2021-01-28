@@ -10,6 +10,7 @@
          * [ls](linux/terminal/LS.md)
          * [mkdir](linux/terminal/MKDIR.md)
          * [pwd](linux/terminal/PWD.md)
+         * [rm](linux/terminal/RM.md)
          * [touch](linux/terminal/TOUCH.md)
       * [Пути](linux/paths/README.md)
 * [Markdown](markdown/README.md)
