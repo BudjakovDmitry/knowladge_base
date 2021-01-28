@@ -7,6 +7,7 @@
          * [pwd](linux/terminal/PWD.md)
          * [ls](linux/terminal/LS.md)
          * [mkdir](linux/terminal/MKDIR.md)
+         * [touch](linux/terminal/TOUCH.md)
          * [clear](linux/terminal/CLEAR.md)
          * [exit](linux/terminal/EXIT.md)
       * [Пути](linux/paths/README.md)
