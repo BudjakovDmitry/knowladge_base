@@ -10,6 +10,7 @@
          * [exit](linux/terminal/EXIT.md)
          * [ls](linux/terminal/LS.md)
          * [mkdir](linux/terminal/MKDIR.md)
+         * [mv](linux/terminal/MV.md)
          * [pwd](linux/terminal/PWD.md)
          * [rm](linux/terminal/RM.md)
          * [touch](linux/terminal/TOUCH.md)
