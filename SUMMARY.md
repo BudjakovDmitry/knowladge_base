@@ -5,6 +5,7 @@
    * [Terminal](linux/terminal/README.md)
       * [Команды](linux/terminal/COMMANDS.md)
          * [cd](linux/terminal/CD.md)
+         * [cp](linux/terminal/CP.md)
          * [clear](linux/terminal/CLEAR.md)
          * [exit](linux/terminal/EXIT.md)
          * [ls](linux/terminal/LS.md)
