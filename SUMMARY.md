@@ -5,6 +5,7 @@
    * [Terminal](linux/terminal/README.md)
       * [Команды](linux/terminal/COMMANDS.md)
          * [cd](linux/terminal/CD.md)
+         * [chmod](linux/terminal/CHMOD.md)
          * [cp](linux/terminal/CP.md)
          * [clear](linux/terminal/CLEAR.md)
          * [exit](linux/terminal/EXIT.md)
@@ -14,7 +15,7 @@
          * [pwd](linux/terminal/PWD.md)
          * [rm](linux/terminal/RM.md)
          * [touch](linux/terminal/TOUCH.md)
-      * [Пути](linux/paths/README.md)
       * [Запуск исполняемых файлов](linux/executable/README.md)
+   * [Пути](linux/paths/README.md)
 * [Markdown](markdown/README.md)
 
