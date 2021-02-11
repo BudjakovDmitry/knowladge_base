@@ -59,3 +59,21 @@ json_result = schema.dumps(user)
 pprint(json_result)
 # '{"email": "monty@python.org", "name": "Monty", "created_at": "2021-02-11T14:08:01.278078"}'
 ```
+
+## Обработка коллекции объектов
+Для работы с итерируемыми коллекциями объектов используется параметр many=True
+
+```
+user1 = User(name="Mick", email="mick@stones.com")
+user2 = User(name="Keith", email="keith@stones.com")
+users = [user1, user2]
+schema = UserSchema(many=True)
+result = schema.dump(users)
+pprint(result)
+# [{'created_at: '2021-02-11T17:27:29.902333',
+#   'email': 'mick@stones.com',
+#   'name': 'Mick'},
+#  {'created_at': '2021-02-11T17:28:03.761225',
+#   'email': 'keith@stones.com',
+#   'name': 'Keith'}]
+```
