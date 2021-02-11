@@ -77,3 +77,25 @@ pprint(result)
 #   'email': 'keith@stones.com',
 #   'name': 'Keith'}]
 ```
+
+## Предобработка и постобработка данных
+С помоью декораторов `pre_load`, `post_load`, `pre_dump` и `post_dump` можно зарегестрировать методы для предобработки и постобработки данных.
+
+```
+from marshmallow import Schema, fields, pre_load
+
+
+class UserSchema(Schema):
+    name = fields.Str()
+    slug = fields.Str()
+
+    @pre_load
+    def slugify(self, in_data, **kwargs):
+        in_data["slug"] = in_data["slug"].lower().strip().replace(" ", "-")
+        return in_data
+
+
+schema = UserSchema()
+result = schema.load({"name": "Steve", "slug": "Steve Loria"})
+result["slug"]  # => 'steve-loria'
+```
