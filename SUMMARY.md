@@ -18,4 +18,5 @@
       * [Запуск исполняемых файлов](linux/executable/README.md)
    * [Пути](linux/paths/README.md)
 * [Markdown](markdown/README.md)
-
+* PyPI
+   * [Marshmallow](python/pypi/marsmallow/README.md)
