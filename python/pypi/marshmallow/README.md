@@ -36,6 +36,18 @@ class UserSchema(Schema):
     created_at = fields.DateTime()
 ```
 
+## Создание схем из словарей
+Схему можно создать из словаря. Для этого используется метод `from_dict`.
+
+```
+from marshmallow import Schema, fields
+
+
+UserSchema = Schema.from_dict({"name": fields.Str(), "email": fields.Email(), "created_at": fields.DateTime()})
+```
+
+Метод from_dict особенно полезен для генерации схем на лету.
+
 ## Сериализация
 Сериализация объектов происходит путем передачи этих объектов в метод схемы `dump`.
 
