@@ -19,4 +19,4 @@
    * [Пути](linux/paths/README.md)
 * [Markdown](markdown/README.md)
 * PyPI
-   * [Marshmallow](python/pypi/marsmallow/README.md)
+   * [Marshmallow](python/pypi/marshmallow/README.md)
