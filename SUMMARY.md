@@ -16,6 +16,12 @@
          * [rm](linux/terminal/RM.md)
          * [touch](linux/terminal/TOUCH.md)
       * [Запуск исполняемых файлов](linux/executable/README.md)
+      * [Работа с текстовыми файлами](linux/programs/README.md)
+         *[cat](linux/programs/CAT.md)
+         *[less](linux/programs/LESS.md)
+         *[namo](linux/programs/NANO.md)
+   * [stdin/stdout/stderr](linux/stdin/README.md)
+   * [конвейер (pipe)](linux/stdin/PIPE.md)
    * [Пути](linux/paths/README.md)
 * [Markdown](markdown/README.md)
 * PyPI
