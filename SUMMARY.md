@@ -22,6 +22,11 @@
          * [namo](linux/text/NANO.md)
       * Работа с интернетом
          * [wget](linux/internet/WGET.md)
+      * Работа с архивами
+         * [zip](linux/archives/ZIP.md)
+         * [gzip](linux/archives/GRIP.md)
+         * [bzip](linux/archives/BZIP.md)
+         * [tar](linux/archives/TAR.md)
    * [stdin/stdout/stderr](linux/stdin/README.md)
    * [конвейер (pipe)](linux/stdin/PIPE.md)
    * [Пути](linux/paths/README.md)
