@@ -10,7 +10,7 @@
          * [clear](linux/terminal/CLEAR.md)
          * [exit](linux/terminal/EXIT.md)
          * [jobs](linux/terminal/JOBS.md)
-         * [kill](linux/terminam/KILL.md)
+         * [kill](linux/terminal/KILL.md)
          * [ls](linux/terminal/LS.md)
          * [mkdir](linux/terminal/MKDIR.md)
          * [mv](linux/terminal/MV.md)
