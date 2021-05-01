@@ -27,9 +27,9 @@
          * [cat](linux/text/CAT.md)
          * [less](linux/text/LESS.md)
          * [namo](linux/text/NANO.md)
-      * Работа с интернетом
+      * Интернет
          * [wget](linux/internet/WGET.md)
-      * Работа с архивами
+      * Архивы
          * [zip](linux/archives/ZIP.md)
          * [gzip](linux/archives/GZIP.md)
          * [bzip](linux/archives/BZIP.md)
@@ -42,7 +42,7 @@
          * [Обмен файлами](linux/server/SCP.md)
       * Установка программ
          * [Ubuntu](linux/install/UBUNTU.md)
-      * Вкладки терминала[linux/tabs/README.md]
+      * [Вкладки терминала](linux/tabs/README.md)
       * [tmux](linux/tmux/README.md)
    * [stdin/stdout/stderr](linux/stdin/README.md)
    * [конвейер (pipe)](linux/stdin/PIPE.md)
