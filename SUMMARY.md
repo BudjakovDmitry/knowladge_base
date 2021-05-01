@@ -42,6 +42,8 @@
          * [Обмен файлами](linux/server/SCP.md)
       * Установка программ
          * [Ubuntu](linux/install/UBUNTU.md)
+      * Вкладки терминала[linux/tabs/README.md]
+      * [tmux](linux/tmux/README.md)
    * [stdin/stdout/stderr](linux/stdin/README.md)
    * [конвейер (pipe)](linux/stdin/PIPE.md)
    * [Пути](linux/paths/README.md)
