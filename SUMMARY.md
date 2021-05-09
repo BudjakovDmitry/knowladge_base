@@ -49,5 +49,6 @@
    * [конвейер (pipe)](linux/stdin/PIPE.md)
    * [Пути](linux/paths/README.md)
 * [Markdown](markdown/README.md)
+* [Python](python/README.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
