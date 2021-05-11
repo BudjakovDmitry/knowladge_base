@@ -50,5 +50,10 @@
    * [Пути](linux/paths/README.md)
 * [Markdown](markdown/README.md)
 * [Python](python/README.md)
+   * [Операторы](python/operators/README.md)
+   * Типы данных
+      * [Целые числа](python/interers/README.md)
+   * Исключения
+      * [SyntaxError](python/exceptions/SYNTAX_ERROR.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
