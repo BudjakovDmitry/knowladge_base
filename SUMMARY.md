@@ -52,8 +52,9 @@
 * [Python](python/README.md)
    * [Операторы](python/operators/README.md)
    * Типы данных
-      * [Целые числа](python/interers/README.md)
+      * [Целые числа](python/integers/README.md)
    * Исключения
       * [SyntaxError](python/exceptions/SYNTAX_ERROR.md)
+      * [ZeroDivisionError](python/exceptions/ZERO_DIVISION_ERROR.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
