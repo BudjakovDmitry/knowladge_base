@@ -51,8 +51,9 @@
 * [Markdown](markdown/README.md)
 * [Python](python/README.md)
    * [Операторы](python/operators/README.md)
-   * Типы данных
-      * [Целые числа](python/integers/README.md)
+   * [Типы данных](python/data_types/README.md)
+      * [Целые числа](python/data_types/INTEGERS.md)
+      * [Вещественные числа](python/data_types/FLOATS.md)
    * Исключения
       * [SyntaxError](python/exceptions/SYNTAX_ERROR.md)
       * [ZeroDivisionError](python/exceptions/ZERO_DIVISION_ERROR.md)
