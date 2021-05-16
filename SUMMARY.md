@@ -50,6 +50,7 @@
    * [Пути](linux/paths/README.md)
 * [Markdown](markdown/README.md)
 * [Python](python/README.md)
+   * [Интерпретатор](python/interpreter/README.md)
    * [Операторы](python/operators/README.md)
    * [Типы данных](python/data_types/README.md)
       * [Целые числа](python/data_types/INTEGERS.md)
