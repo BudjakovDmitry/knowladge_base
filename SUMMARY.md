@@ -53,10 +53,14 @@
    * [Интерпретатор](python/interpreter/README.md)
    * [Операторы](python/operators/README.md)
    * [Типы данных](python/data_types/README.md)
-      * [Целые числа](python/data_types/INTEGERS.md)
-      * [Вещественные числа](python/data_types/FLOATS.md)
+      * [Числа](python/data_types/numbers/README.md)
+         * [Целые числа](python/data_types/numbers/INTEGERS.md)
+         * [Вещественные числа](python/data_types/numbers/FLOATS.md)§
    * Исключения
       * [SyntaxError](python/exceptions/SYNTAX_ERROR.md)
       * [ZeroDivisionError](python/exceptions/ZERO_DIVISION_ERROR.md)
+   * Батарейки
+      * math(python/stl/MATH.md)
+      * random(python/stl/RANDOM.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
