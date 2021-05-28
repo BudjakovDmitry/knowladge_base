@@ -51,11 +51,18 @@
 * [Markdown](markdown/README.md)
 * [Python](python/README.md)
    * [Интерпретатор](python/interpreter/README.md)
+      * [Порядок выполнения программ](python/interpreter/ORDER.md)
    * [Операторы](python/operators/README.md)
    * [Типы данных](python/data_types/README.md)
       * [Числа](python/data_types/numbers/README.md)
          * [Целые числа](python/data_types/numbers/INTEGERS.md)
          * [Вещественные числа](python/data_types/numbers/FLOATS.md)
+      * [Строки](python/data_types/strings/README.md)
+         * [Методы](python/data_types/strings/METHODS.md)
+         * [Форматирование](python/data_types/strings/FORMATTING.md)
+      * [Последовательности](python/data_types/SEQUENCES.md)
+   * [Переменные и присваивание](python/assignment/README.md)
+   * [Помощь](python/help/README.md)
    * Исключения
       * [SyntaxError](python/exceptions/SYNTAX_ERROR.md)
       * [ZeroDivisionError](python/exceptions/ZERO_DIVISION_ERROR.md)
@@ -64,3 +71,5 @@
       * [random](python/stl/RANDOM.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
+* ООП
+   [Полиморфизм](theory/oop/POLYMORPHIZM.md)
