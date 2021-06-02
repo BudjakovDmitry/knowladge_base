@@ -3,7 +3,7 @@
 Самые популярные реализации языка:
 
 * [CPython](./CPYTHON.md)
-* Jython
+* [Jython](./JYTHON.md)
 * IronPython
 * Stackless
 * PyPy
