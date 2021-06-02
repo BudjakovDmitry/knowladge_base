@@ -52,6 +52,8 @@
 * [Python](python/README.md)
    * [Интерпретатор](python/interpreter/README.md)
       * [Порядок выполнения программ](python/interpreter/ORDER.md)
+      * [Альтернативные реализации Python](python/interpreter/OTHER.md)
+         * [CPython](python/interpreter/CPYTHON.md)
    * [Операторы](python/operators/README.md)
    * [Типы данных](python/data_types/README.md)
       * [Числа](python/data_types/numbers/README.md)
