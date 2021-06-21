@@ -59,6 +59,7 @@
          * [Stackless](python/interpreter/STACKLESS.md)
          * [PyPy](python/interpreter/PYPY.md)
          * [Cython](python/interpreter/CYTHON.md)
+         * [Shed Skin](python/interpreter/SHED_SKIN.md)
    * [Операторы](python/operators/README.md)
    * [Типы данных](python/data_types/README.md)
       * [Числа](python/data_types/numbers/README.md)
