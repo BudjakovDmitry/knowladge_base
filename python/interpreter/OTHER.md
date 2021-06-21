@@ -6,7 +6,7 @@
 * [Jython](./JYTHON.md)
 * [IronPython](./IRONPYTHON.md)
 * [Stackless](./STACKLESS.md)
-* PyPy
+* [PyPy](./PYPY.md)
 
 Каждая из этих реализаций представляет собой отдельно устанавливаемую программную систему.
 
