@@ -52,6 +52,7 @@
 * [Python](python/README.md)
    * [Интерпретатор](python/interpreter/README.md)
       * [Порядок выполнения программ](python/interpreter/ORDER.md)
+      * [Фиксированные двоичные файлы](python/interpreter/BINARY.md)
       * [Альтернативные реализации Python](python/interpreter/OTHER.md)
          * [CPython](python/interpreter/CPYTHON.md)
          * [Jython](python/interpreter/JYTHON.md)
