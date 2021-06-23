@@ -78,6 +78,7 @@
    * Батарейки
       * [math](python/stl/MATH.md)
       * [random](python/stl/RANDOM.md)
+* [Базы данных](databases/README.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
 * ООП
