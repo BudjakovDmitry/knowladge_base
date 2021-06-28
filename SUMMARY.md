@@ -82,6 +82,7 @@
    * [psql](databases/postgresql/PSQL.md)
    * [Типы данных](databases/postgresql/datatypes/README.md)
       * [Числовые типы](databases/postgresql/datatypes/NUMBERS.md)
+      * [Строковые типы](datatypes/postgresql/datatypes/STRINGS.md)
    * [Создание таблиц](databases/CREATE_TABLE.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
