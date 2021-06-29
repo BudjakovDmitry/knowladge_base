@@ -37,3 +37,8 @@ program 2>> file
 ```bash
 program >out_file 2>err_file <in_file
 ```
+
+Перенаправление stdout и stderr в один файл:
+```bash
+program >log 2>&1
+```
