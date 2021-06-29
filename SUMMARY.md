@@ -79,6 +79,7 @@
       * [math](python/stl/MATH.md)
       * [random](python/stl/RANDOM.md)
 * [Базы данных](databases/README.md)
+   * [sql](databases/SQL.md)
    * [psql](databases/postgresql/PSQL.md)
    * [Типы данных](databases/postgresql/datatypes/README.md)
       * [Числовые типы](databases/postgresql/datatypes/NUMBERS.md)
