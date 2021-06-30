@@ -8,17 +8,29 @@
 psql
 ```
 
+Получение справки
+```bash
+psql --help
+```
+
 Подключение к базе данных `db_name` используя учетную запись пользователя `username`.
 ```bash
 psql -d db_name -U username
 ```
 
+Выполнить скрипт из файла
+```bash
+psql -f script.sql -U username
+```
+
 Создание базы данных
 ```bash
-createdb -U postgres db_name
+createdb -U username db_name
 ```
 
 При вводе SQL команд можно использовать клавишу Tab для автодополнения вводимого клчевого слова или имени таблицы БД.
+
+Для того, чтобы прекратить ввод команды нужно надать Ctrl+C.
 
 ## Сервисные команды
 
@@ -48,4 +60,10 @@ createdb -U postgres db_name
 
 ```
 \d table_name
+```
+
+Посмотреть список схем
+
+```
+\dn
 ```

@@ -81,6 +81,7 @@
 * [Базы данных](databases/README.md)
    * [sql](databases/SQL.md)
    * [psql](databases/postgresql/PSQL.md)
+   * [Схемы](databases/SCHEMAS.md)
    * [Типы данных](databases/postgresql/datatypes/README.md)
       * [Числовые типы](databases/postgresql/datatypes/NUMBERS.md)
       * [Строковые типы](databases/postgresql/datatypes/STRINGS.md)
