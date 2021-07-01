@@ -1,4 +1,6 @@
-# Создание таблиц
+# Операции с таблицами
+
+## Создание таблиц
 
 Для создания таблиц служит команда `CREATE TABLE`.
 
@@ -275,4 +277,10 @@ CREATE TABLE progress
       ON DELETE CASCADE
       ON UPDATE CASCADE
 );
+```
+
+## Удаление таблиц
+
+```sql
+DROP TABLE table_name;
 ```

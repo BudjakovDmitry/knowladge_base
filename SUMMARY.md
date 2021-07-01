@@ -78,14 +78,16 @@
    * Батарейки
       * [math](python/stl/MATH.md)
       * [random](python/stl/RANDOM.md)
-* [Базы данных](databases/README.md)
-   * [sql](databases/SQL.md)
-   * [psql](databases/postgresql/PSQL.md)
+* Базы данных
+   * [Терминология](databases/THEORY.md)
+   * [Клиент psql](databases/postgresql/PSQL.md)
    * [Схемы](databases/SCHEMAS.md)
    * [Типы данных](databases/postgresql/datatypes/README.md)
       * [Числовые типы](databases/postgresql/datatypes/NUMBERS.md)
       * [Строковые типы](databases/postgresql/datatypes/STRINGS.md)
-   * [Создание таблиц](databases/CREATE_TABLE.md)
+   * Операции с таблицами
+      * [Создание таблиц](databases/tables/CREATE_TABLE.md)
+   * [Индексы](databases/INDEX.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
 * ООП
