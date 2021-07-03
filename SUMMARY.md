@@ -85,8 +85,13 @@
    * [Типы данных](databases/postgresql/datatypes/README.md)
       * [Числовые типы](databases/postgresql/datatypes/NUMBERS.md)
       * [Строковые типы](databases/postgresql/datatypes/STRINGS.md)
+      * [Дата/время](databases/postgresql/datatypes/DATETIME.md)
+      * [Константы](databases/postgresql/datatypes/CONST.md)
    * Операции с таблицами
       * [Создание таблиц](databases/tables/CREATE_TABLE.md)
+      * [Удаление таблиц](databases/tables/DROP_TABLE.md)
+   * Операции с данными
+      * [Вставка](databases/data/INSERT.md)
    * [Индексы](databases/INDEX.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
