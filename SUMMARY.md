@@ -80,6 +80,9 @@
       * [random](python/stl/RANDOM.md)
 * PostgreSQL
    * [Основы архитектуры](postgres/ARCHITECTURE.md)
+   * [Работа с базами данных](postgres/databases/README.md)
+      * [Создание](postgres/databases/CREATION.md)
+      * [Удаление](postgres/databases/DELETION.md)
    * [Терминология](databases/THEORY.md)
    * [Клиент psql](databases/postgresql/PSQL.md)
    * [Схемы](databases/SCHEMAS.md)
