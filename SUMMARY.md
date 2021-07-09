@@ -87,6 +87,7 @@
       * [Строковые типы](databases/postgresql/datatypes/STRINGS.md)
       * [Дата/время](databases/postgresql/datatypes/DATETIME.md)
       * [Логический тип](databases/postgresql/datatypes/BOOL.md)
+      * [Массивы](databases/postgresql/datatypes/ARRAY.md)
       * [Константы](databases/postgresql/datatypes/CONST.md)
    * Операции с таблицами
       * [Создание таблиц](databases/tables/CREATE_TABLE.md)
