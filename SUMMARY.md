@@ -99,6 +99,7 @@
       * [Удаление таблиц](postgres/tables/DROP_TABLE.md)
    * Операции с данными
       * [Вставка](postgres/data/INSERT.md)
+      * [Выборка](postgres/data/SELECT.md)
    * Встроенные функции
       * [Дата и время](databases/functions/DATETIME.md)
    * [Индексы](databases/INDEX.md)
