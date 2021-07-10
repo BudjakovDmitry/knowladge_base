@@ -98,7 +98,7 @@
       * [Создание таблиц](postgres/tables/CREATE_TABLE.md)
       * [Удаление таблиц](postgres/tables/DROP_TABLE.md)
    * Операции с данными
-      * [Вставка](databases/data/INSERT.md)
+      * [Вставка](postgres/data/INSERT.md)
    * Встроенные функции
       * [Дата и время](databases/functions/DATETIME.md)
    * [Индексы](databases/INDEX.md)
