@@ -95,8 +95,8 @@
       * [Массивы](databases/postgresql/datatypes/ARRAY.md)
       * [Константы](databases/postgresql/datatypes/CONST.md)
    * Операции с таблицами
-      * [Создание таблиц](databases/tables/CREATE_TABLE.md)
-      * [Удаление таблиц](databases/tables/DROP_TABLE.md)
+      * [Создание таблиц](postgres/tables/CREATE_TABLE.md)
+      * [Удаление таблиц](postgres/tables/DROP_TABLE.md)
    * Операции с данными
       * [Вставка](databases/data/INSERT.md)
    * Встроенные функции
