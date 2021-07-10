@@ -64,7 +64,7 @@ createdb -U username db_name
 * `\h` - получить список всех SQL-команд
 * `\i` - считывает и выполняет команды из заданного файла
 
-   `\i script.sql'
+   `\i script.sql`
 
 * `\q` - выйти из psql
 
