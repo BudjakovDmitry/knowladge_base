@@ -78,7 +78,7 @@
    * Батарейки
       * [math](python/stl/MATH.md)
       * [random](python/stl/RANDOM.md)
-* PostgreSQL
+* (PostgreSQL)[postgres/README.md]
    * [Основы архитектуры](postgres/ARCHITECTURE.md)
    * [Работа с базами данных](postgres/databases/README.md)
       * [Создание](postgres/databases/CREATION.md)
