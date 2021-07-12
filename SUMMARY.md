@@ -48,6 +48,8 @@
    * [stdin/stdout/stderr](linux/stdin/README.md)
    * [конвейер (pipe)](linux/stdin/PIPE.md)
    * [Пути](linux/paths/README.md)
+   * [Переменные окружения]
+      * [PATH](linux/env/PATH.md)
 * [Markdown](markdown/README.md)
 * [Python](python/README.md)
    * [Интерпретатор](python/interpreter/README.md)
