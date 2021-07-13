@@ -22,7 +22,10 @@
          * [rm](linux/terminal/RM.md)
          * [top](linux/terminal/TOP.md)
          * [touch](linux/terminal/TOUCH.md)
+         * [which](linux/terminal/WHICH.md)
       * [Запуск исполняемых файлов](linux/executable/README.md)
+      * Программирование на bash
+         * [Оболочка](linux/scripting/SHELL.md)
       * [Работа с текстовыми файлами](linux/text/README.md)
          * [cat](linux/text/CAT.md)
          * [less](linux/text/LESS.md)
@@ -48,7 +51,7 @@
    * [stdin/stdout/stderr](linux/stdin/README.md)
    * [конвейер (pipe)](linux/stdin/PIPE.md)
    * [Пути](linux/paths/README.md)
-   * [Переменные окружения]
+   * Переменные окружени
       * [PATH](linux/env/PATH.md)
 * [Markdown](markdown/README.md)
 * [Python](python/README.md)
