@@ -86,6 +86,7 @@
       * [max](python/built-in_functions/MAX.md)
       * [min](python/built-in_functions/MIN.md)
       * [pow](python/built-in_functions/POW.md)
+      * [round](python/built-in_functions/ROUND.md)
       * [sum](python/built-in_functions/SUM.md)
    * Стандартная библиотека
       * [math](python/stl/MATH.md)
