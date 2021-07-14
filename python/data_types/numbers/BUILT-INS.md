@@ -1,3 +1,3 @@
 # Встроенные функции для работы с числами
 
-* [pow](python/built-in_functions/POW.md) - возведение числа в степень
+* [pow](../../built-in_functions/POW.md) - возведение числа в степень
