@@ -82,6 +82,7 @@
       * [SyntaxError](python/exceptions/SYNTAX_ERROR.md)
       * [ZeroDivisionError](python/exceptions/ZERO_DIVISION_ERROR.md)
    * Встроенные функции
+      * [abs](python/built-in_functions/ABS.md)
       * [pow](python/built-in_functions/POW.md)
    * Батарейки
       * [math](python/stl/MATH.md)
