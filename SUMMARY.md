@@ -71,6 +71,7 @@
       * [Числа](python/data_types/numbers/README.md)
          * [Целые числа](python/data_types/numbers/INTEGERS.md)
          * [Вещественные числа](python/data_types/numbers/FLOATS.md)
+         * [Функции для работы с числами](python/data_types/numbers/BUILT-INS.md)
       * [Строки](python/data_types/strings/README.md)
          * [Методы](python/data_types/strings/METHODS.md)
          * [Форматирование](python/data_types/strings/FORMATTING.md)
@@ -80,6 +81,8 @@
    * Исключения
       * [SyntaxError](python/exceptions/SYNTAX_ERROR.md)
       * [ZeroDivisionError](python/exceptions/ZERO_DIVISION_ERROR.md)
+   * Встроенные функции
+      * [pow](python/bult-in_functions/POW.md)
    * Батарейки
       * [math](python/stl/MATH.md)
       * [random](python/stl/RANDOM.md)
