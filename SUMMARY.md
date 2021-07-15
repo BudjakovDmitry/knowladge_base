@@ -26,6 +26,7 @@
       * [Запуск исполняемых файлов](linux/executable/README.md)
       * Программирование на bash
          * [Оболочка](linux/scripting/SHELL.md)
+         * [Основы](linux/scripting/BASICS.md)
       * [Работа с текстовыми файлами](linux/text/README.md)
          * [cat](linux/text/CAT.md)
          * [less](linux/text/LESS.md)
