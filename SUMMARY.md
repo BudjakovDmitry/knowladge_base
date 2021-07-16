@@ -84,6 +84,7 @@
       * [ZeroDivisionError](python/exceptions/ZERO_DIVISION_ERROR.md)
    * Встроенные функции
       * [abs](python/built-in_functions/ABS.md)
+      * [input](python/built-in_functions/INPUT.md)
       * [max](python/built-in_functions/MAX.md)
       * [min](python/built-in_functions/MIN.md)
       * [pow](python/built-in_functions/POW.md)
