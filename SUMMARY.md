@@ -72,6 +72,7 @@
       * [Числа](python/data_types/numbers/README.md)
          * [Целые числа](python/data_types/numbers/INTEGERS.md)
          * [Вещественные числа](python/data_types/numbers/FLOATS.md)
+         * [Комплексные числа](python/data_types/numbers/COMPLEX.md)
          * [Инструменты для работы с числами](python/data_types/numbers/BUILT-INS.md)
       * [Строки](python/data_types/strings/README.md)
          * [Методы](python/data_types/strings/METHODS.md)
