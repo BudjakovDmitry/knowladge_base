@@ -110,7 +110,7 @@
       * [Логический тип](databases/postgresql/datatypes/BOOL.md)
       * [Массивы](databases/postgresql/datatypes/ARRAY.md)
       * [Константы](databases/postgresql/datatypes/CONST.md)
-   * Операции с таблицами
+   * [Операции с таблицами](postgres/tables/README.md)
       * [Создание таблиц](postgres/tables/CREATE_TABLE.md)
       * [Удаление таблиц](postgres/tables/DROP_TABLE.md)
    * Операции с данными
