@@ -9,9 +9,7 @@
 
 ```python
 s = 'spam'
-s[0] = z
-# TypeError
-
+s[0] = z  # TypeError
 s = 'z' + s[1:]
-# 'zpam'
+s  # 'zpam'
 ```
