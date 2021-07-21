@@ -91,6 +91,7 @@
       * [hex](python/built-in_functions/HEX.md)
       * [input](python/built-in_functions/INPUT.md)
       * [int](python/built-in_functions/INT.md)
+      * [len](python/built-in_functions/LEN.md)
       * [max](python/built-in_functions/MAX.md)
       * [min](python/built-in_functions/MIN.md)
       * [oct](python/built-in_functions/OCT.md)
