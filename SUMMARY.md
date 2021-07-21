@@ -78,7 +78,8 @@
          * [Методы](python/data_types/strings/METHODS.md)
          * [Форматирование](python/data_types/strings/FORMATTING.md)
       * [Последовательности](python/data_types/SEQUENCES.md)
-   * [Переменные и присваивание](python/assignment/README.md)
+   * [Переменные, объекты и ссылки](python/objects/README.md)
+      * [Сборка мусора](python/objects/GARBAGE.md)
    * [Помощь](python/help/README.md)
    * Исключения
       * [SyntaxError](python/exceptions/SYNTAX_ERROR.md)
@@ -89,6 +90,7 @@
       * [complex](python/built-in_functions/COMPLEX.md)
       * [hex](python/built-in_functions/HEX.md)
       * [input](python/built-in_functions/INPUT.md)
+      * [int](python/built-in_functions/INT.md)
       * [max](python/built-in_functions/MAX.md)
       * [min](python/built-in_functions/MIN.md)
       * [oct](python/built-in_functions/OCT.md)
