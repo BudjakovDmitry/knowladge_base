@@ -104,6 +104,7 @@
       * [pow](python/built-in_functions/POW.md)
       * [round](python/built-in_functions/ROUND.md)
       * [sum](python/built-in_functions/SUM.md)
+   * [Оформление кода](python/format/README.md)
    * Стандартная библиотека
       * [math](python/stl/MATH.md)
       * [random](python/stl/RANDOM.md)
