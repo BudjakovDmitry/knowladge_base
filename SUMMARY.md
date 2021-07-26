@@ -89,7 +89,10 @@
       * [Сборка мусора](python/objects/GARBAGE.md)
    * Циклы
       * [while](python/cicles/WHILE.md)
-   * [Документация](python/help/README.md)
+      * [for](python/cicles/FOR.md)
+      * [break](python/cicles/BREAK.md)
+      * [continue](python/cicles/CONTINUE.md)
+   * [Документация](python/doc/README.md)
    * Исключения
       * [SyntaxError](python/exceptions/SYNTAX_ERROR.md)
       * [ZeroDivisionError](python/exceptions/ZERO_DIVISION_ERROR.md)
@@ -103,6 +106,7 @@
       * [input](python/built-in_functions/INPUT.md)
       * [int](python/built-in_functions/INT.md)
       * [len](python/built-in_functions/LEN.md)
+      * [list](python/bbuilt-in_functions/LIST.md)
       * [max](python/built-in_functions/MAX.md)
       * [min](python/built-in_functions/MIN.md)
       * [oct](python/built-in_functions/OCT.md)
