@@ -106,7 +106,7 @@
       * [input](python/built-in_functions/INPUT.md)
       * [int](python/built-in_functions/INT.md)
       * [len](python/built-in_functions/LEN.md)
-      * [list](python/bbuilt-in_functions/LIST.md)
+      * [list](python/built-in_functions/LIST.md)
       * [max](python/built-in_functions/MAX.md)
       * [min](python/built-in_functions/MIN.md)
       * [oct](python/built-in_functions/OCT.md)
@@ -118,6 +118,8 @@
    * Стандартная библиотека
       * [math](python/stl/MATH.md)
       * [random](python/stl/RANDOM.md)
+* pytest
+   * [Установка](pytest/INSTALL.md)
 * [PostgreSQL](postgres/README.md)
    * [Основы архитектуры](postgres/ARCHITECTURE.md)
    * [Работа с базами данных](postgres/databases/README.md)
