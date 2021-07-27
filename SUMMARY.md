@@ -101,6 +101,7 @@
       * [bin](python/built-in_functions/BIN.md)
       * [complex](python/built-in_functions/COMPLEX.md)
       * [dir](python/built-in_functions/DIR.md)
+      * [float](python/built-in_functions/FLOAT.md)
       * [help](python/built-in_functions/HELP.md)
       * [hex](python/built-in_functions/HEX.md)
       * [input](python/built-in_functions/INPUT.md)
