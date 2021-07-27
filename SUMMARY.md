@@ -120,6 +120,8 @@
       * [random](python/stl/RANDOM.md)
 * pytest
    * [Установка](pytest/INSTALL.md)
+   * [Запуск тестов](pytest/RUN_TEST.md)
+   * [Проверка возникновения исключений](pytest/EXCEPTION_IS_RAISED.md)
 * [PostgreSQL](postgres/README.md)
    * [Основы архитектуры](postgres/ARCHITECTURE.md)
    * [Работа с базами данных](postgres/databases/README.md)
