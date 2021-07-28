@@ -122,6 +122,7 @@
 * pytest
    * [Установка](pytest/INSTALL.md)
    * [Запуск тестов](pytest/RUN_TEST.md)
+   * [Группировка тестов в класс](pytest/TEST_CLASS.md)
    * [Проверка возникновения исключений](pytest/EXCEPTION_IS_RAISED.md)
 * [PostgreSQL](postgres/README.md)
    * [Основы архитектуры](postgres/ARCHITECTURE.md)
