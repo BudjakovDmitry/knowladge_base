@@ -108,6 +108,7 @@
       * [int](python/built-in_functions/INT.md)
       * [len](python/built-in_functions/LEN.md)
       * [list](python/built-in_functions/LIST.md)
+      * [map](python/built-in_functions/MAP.md)
       * [max](python/built-in_functions/MAX.md)
       * [min](python/built-in_functions/MIN.md)
       * [oct](python/built-in_functions/OCT.md)
