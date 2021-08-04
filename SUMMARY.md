@@ -92,6 +92,8 @@
       * [for](python/cicles/FOR.md)
       * [break](python/cicles/BREAK.md)
       * [continue](python/cicles/CONTINUE.md)
+   * [Модули](python/modules/README.md)
+      * [Импортирование](python/modules/IMPORT.md)
    * [Документация](python/doc/README.md)
    * Исключения
       * [SyntaxError](python/exceptions/SYNTAX_ERROR.md)
@@ -118,8 +120,10 @@
       * [sum](python/built-in_functions/SUM.md)
    * [Оформление кода](python/format/README.md)
    * Стандартная библиотека
+      * [importlib](python/stl/IMPORTLIB.md)
       * [math](python/stl/MATH.md)
       * [random](python/stl/RANDOM.md)
+      * [sys](python/stl/SYS.md)
 * pytest
    * [Установка](pytest/INSTALL.md)
    * [Запуск тестов](pytest/RUN_TEST.md)
