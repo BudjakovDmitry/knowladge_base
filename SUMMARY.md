@@ -157,5 +157,8 @@
    * [Индексы](databases/INDEX.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
+* [Rabbitmq](rabbitmq/README.md)
+   * [Установка](rabbitmq/INSTALL.md)
+   * [Hello world](rabbitmq/HELLO_WORLD.md)
 * ООП
    [Полиморфизм](theory/oop/POLYMORPHIZM.md)
