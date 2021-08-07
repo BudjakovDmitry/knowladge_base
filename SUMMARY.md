@@ -130,6 +130,8 @@
    * [Группировка тестов в класс](pytest/TEST_CLASS.md)
    * [Проверка возникновения исключений](pytest/EXCEPTION_IS_RAISED.md)
    * [Встроенные аргументы](pytest/BUILTIN_ARGUMANTS.md)
+   * Заглушки
+      * Переменные окружения(pytest/monkeypatching/ENV.md)
 * Django
    * [Установка](django/INSTALL.md)
    * [Создание проекта](django/CREATE_PROJECT.md)
