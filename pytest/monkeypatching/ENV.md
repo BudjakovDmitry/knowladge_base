@@ -13,7 +13,7 @@ def get_os_user_lower():
     if username is None:
         raise OSError("USER environment is not set.")
 
-    return username.lowe()
+    return username.lower()
 ```
 
 В этом сценарии два возможных пути: переменная USER задана; переменной USER не существует. Оба пути могут быть безопасно протестированы без воздействия на текущее окружение.
