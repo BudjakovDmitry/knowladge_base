@@ -130,6 +130,9 @@
    * [Группировка тестов в класс](pytest/TEST_CLASS.md)
    * [Проверка возникновения исключений](pytest/EXCEPTION_IS_RAISED.md)
    * [Встроенные аргументы](pytest/BUILTIN_ARGUMANTS.md)
+* Django
+   * [Установка](django/INSTALL.md)
+   * [Создание проекта](django/CREATE_PROJECT.md)
 * [PostgreSQL](postgres/README.md)
    * [Основы архитектуры](postgres/ARCHITECTURE.md)
    * [Работа с базами данных](postgres/databases/README.md)
