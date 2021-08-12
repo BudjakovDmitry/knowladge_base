@@ -131,6 +131,7 @@
    * [Проверка возникновения исключений](pytest/EXCEPTION_IS_RAISED.md)
    * [Встроенные аргументы](pytest/BUILTIN_ARGUMANTS.md)
    * [Заглушки](pytest/monkeypatching/README.md)
+      * [Функции](pytest/monkeypatching/MOCK_FUNCTIONS.md)
       * [Переменные окружения](pytest/monkeypatching/ENV.md)
 * Django
    * [Установка](django/INSTALL.md)
