@@ -135,6 +135,8 @@
 * Django
    * [Установка](django/INSTALL.md)
    * [Создание проекта](django/CREATE_PROJECT.md)
+   * [Создание приложения](django/CREATE_APP.md)
+   * [Настройка базы данных](django/DB_SETUP.md)
 * [PostgreSQL](postgres/README.md)
    * [Основы архитектуры](postgres/ARCHITECTURE.md)
    * [Работа с базами данных](postgres/databases/README.md)
