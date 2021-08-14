@@ -122,14 +122,17 @@
    * Стандартная библиотека
       * [importlib](python/stl/IMPORTLIB.md)
       * [math](python/stl/MATH.md)
+      * [os](python/stl/OS.md)
+      * [pathlib](python/stl/PATHLIB.md)
       * [random](python/stl/RANDOM.md)
+      * [site](python/stl/SITE.md)
       * [sys](python/stl/SYS.md)
 * pytest
    * [Установка](pytest/INSTALL.md)
    * [Запуск тестов](pytest/RUN_TEST.md)
    * [Группировка тестов в класс](pytest/TEST_CLASS.md)
    * [Проверка возникновения исключений](pytest/EXCEPTION_IS_RAISED.md)
-   * [Встроенные аргументы](pytest/BUILTIN_ARGUMANTS.md)
+   * [Встроенные аргументы](pytest/BUILTIN_ARGUMENTS.md)
    * [Заглушки](pytest/monkeypatching/README.md)
       * [Функции](pytest/monkeypatching/MOCK_FUNCTIONS.md)
       * [Переменные окружения](pytest/monkeypatching/ENV.md)
