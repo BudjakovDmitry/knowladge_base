@@ -149,7 +149,8 @@
       * [Создание](postgres/databases/CREATION.md)
       * [Удаление](postgres/databases/DELETION.md)
       * [Подключение](postgres/databases/CONNECTION.md)
-   * [Клиент psql](postgres/PSQL.md)
+   * Клиентские приложения
+      * [psql](postgres/clients/PSQL.md)
    * [Схемы](databases/SCHEMAS.md)
    * [Типы данных](databases/postgresql/datatypes/README.md)
       * [Числовые типы](databases/postgresql/datatypes/NUMBERS.md)
