@@ -165,6 +165,8 @@
    * Операции с данными
       * [Вставка](postgres/data/INSERT.md)
       * [Выборка](postgres/data/SELECT.md)
+      * [Обновление](postgres/data/UPDATE.md)
+      * [Удаление](postgres/data/DELETE.md)
    * [Соединения](postgres/joins/README.md)
    * Встроенные функции
       * [Дата и время](databases/functions/DATETIME.md)
