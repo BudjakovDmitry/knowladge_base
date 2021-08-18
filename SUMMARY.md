@@ -149,8 +149,6 @@
       * [Создание](postgres/databases/CREATION.md)
       * [Удаление](postgres/databases/DELETION.md)
       * [Подключение](postgres/databases/CONNECTION.md)
-   * Клиентские приложения
-      * [psql](postgres/clients/PSQL.md)
    * [Схемы](databases/SCHEMAS.md)
    * [Типы данных](databases/postgresql/datatypes/README.md)
       * [Числовые типы](databases/postgresql/datatypes/NUMBERS.md)
@@ -170,7 +168,11 @@
    * [Соединения](postgres/joins/README.md)
    * Встроенные функции
       * [Дата и время](databases/functions/DATETIME.md)
+   * [Агрегатные функции](postgres/aggregate_functions/README.md)
+      * [max](postgres/aggregate_functions/MAX.md)
    * [Индексы](databases/INDEX.md)
+   * Клиентские приложения
+      * [psql](postgres/clients/PSQL.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
 * [Rabbitmq](rabbitmq/README.md)
