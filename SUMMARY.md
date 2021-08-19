@@ -172,6 +172,7 @@
       * [max](postgres/aggregate_functions/MAX.md)
    * [Индексы](databases/INDEX.md)
    * [Аутентификация](postgres/auth/README.md)
+      * [pg_hba.conf](postgres/auth/PG_HBA_CONF.md)
    * Клиентские приложения
       * [psql](postgres/clients/PSQL.md)
 * PyPI
