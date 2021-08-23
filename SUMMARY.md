@@ -181,5 +181,11 @@
 * [Rabbitmq](rabbitmq/README.md)
    * [Установка](rabbitmq/INSTALL.md)
    * [Hello world](rabbitmq/HELLO_WORLD.md)
+* [Docker](docker/README.md)
+   * [Команды](docker/COMMANDS.md)
+   * [Dockerfile](docker/DOCKERFILE.md)
+   * [Образ](docker/IMAGE.md)
+   * [Контейнер](docker/CONTAINER.md)
+   * [Registry](docker/REGISTRY.md)
 * ООП
    [Полиморфизм](theory/oop/POLYMORPHIZM.md)
