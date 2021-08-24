@@ -183,11 +183,12 @@
    * [Hello world](rabbitmq/HELLO_WORLD.md)
 * [Docker](docker/README.md)
    * [Команды](docker/COMMANDS.md)
-      [build](docker/docker_cli/commands/BUILD.md)
+      * [build](docker/docker_cli/commands/BUILD.md)
    * [Dockerfile](docker/DOCKERFILE.md)
    * [Образ](docker/IMAGE.md)
    * [Контейнер](docker/CONTAINER.md)
    * [Registry](docker/REGISTRY.md)
    * [Docker compose](docker/docker-compose/README.md)
+* [CI/CD](cicd/README.md)
 * ООП
    [Полиморфизм](theory/oop/POLYMORPHIZM.md)
