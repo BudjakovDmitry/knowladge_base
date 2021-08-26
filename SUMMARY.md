@@ -190,5 +190,8 @@
    * [Registry](docker/REGISTRY.md)
    * [Docker compose](docker/docker-compose/README.md)
 * [CI/CD](cicd/README.md)
+   * [GutHub Actions](cicd/github_actions/README.md)
+* Nginx
+   * [Сравнение Nginx и Apache](nginx/NGINX_APACHE.md)
 * ООП
    [Полиморфизм](theory/oop/POLYMORPHIZM.md)
