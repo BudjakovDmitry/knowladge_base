@@ -191,7 +191,10 @@
    * [Docker compose](docker/docker-compose/README.md)
 * [CI/CD](cicd/README.md)
    * [GutHub Actions](cicd/github_actions/README.md)
-* Nginx
+* [Nginx](nginx/README.md)
    * [Сравнение Nginx и Apache](nginx/NGINX_APACHE.md)
+   * [Установка](nginx/INSTALL.md)
+   * [Управление конфигурацией](nginx/SIGNALS.md)
+   * [Конфигурационный файл](nginx/CONF_FILE.md)
 * ООП
    [Полиморфизм](theory/oop/POLYMORPHIZM.md)
