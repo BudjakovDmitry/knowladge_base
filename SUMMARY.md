@@ -196,5 +196,13 @@
    * [Установка](nginx/INSTALL.md)
    * [Управление конфигурацией](nginx/SIGNALS.md)
    * [Конфигурационный файл](nginx/CONF_FILE.md)
+* [HTML](html/README.md)
+   * [Теги](html/tags/README.md)
+      * [body](html/tags/BODY.md)
+      * [h1-h6](html/tags/H.md)
+      * [head](html/tags/HEAD.md)
+      * [html](html/tags/HTML.md)
+      * [p](html/tags/P.md)
+      * [title](html/tags/TITLE.md)
 * ООП
    [Полиморфизм](theory/oop/POLYMORPHIZM.md)
