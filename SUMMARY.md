@@ -160,6 +160,7 @@
    * [Операции с таблицами](postgres/tables/README.md)
       * [Создание таблиц](postgres/tables/CREATE_TABLE.md)
       * [Удаление таблиц](postgres/tables/DROP_TABLE.md)
+      * [Модификация таблиц](postgres/tables/ALTER_TABLE.md)
    * Операции с данными
       * [Вставка](postgres/data/INSERT.md)
       * [Выборка](postgres/data/SELECT.md)
@@ -169,6 +170,7 @@
    * Встроенные функции
       * [Дата и время](databases/functions/DATETIME.md)
    * [Агрегатные функции](postgres/aggregate_functions/README.md)
+      * [array_agg](postgres/aggregate_functions/ARRAY_AGG.md)
       * [max](postgres/aggregate_functions/MAX.md)
    * [Индексы](databases/INDEX.md)
    * [Представления](postgres/views/README.md)
