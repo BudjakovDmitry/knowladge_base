@@ -87,3 +87,21 @@ ALTER TABLE products DROP CONSTRAINT constraint_name;
 ```sql
 ALTER TABLE products ALTER COLUMN product_no DROP NOT NULL;
 ```
+
+## Изменение значения по умолчанию
+
+Назначить столбцу новое значение по умолчанию можно так:
+
+```sql
+ALTER TABLE products ALTER COLUMN price SET DEFAULT 7.77;
+```
+
+Эта команда никак не повлияет на суествующие строки таблицы, а просто задает новое значение по умолчанию для последующих команд INSERT.
+
+Чтобы удалить значение по умолчанию нужно выполнить:
+
+```sql
+ALTER TABLE products ALTER COLUMN price DROP DEFAULT;
+```
+
+При этом, по сути значению по умолчанию просто присваивается NULL. Следовательно, не будет ошибки, исли попытаться удалить значение по умолчанию, не определенное явно, так как неявно оно существует и равняется NULL.
