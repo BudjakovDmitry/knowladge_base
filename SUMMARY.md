@@ -31,7 +31,6 @@
          * [cat](linux/text/CAT.md)
          * [less](linux/text/LESS.md)
          * [namo](linux/text/NANO.md)
-         * [vim](linux/text/VIM.md)
       * Интернет
          * [wget](linux/internet/WGET.md)
       * Архивы
@@ -209,5 +208,6 @@
       * [html](html/tags/HTML.md)
       * [p](html/tags/P.md)
       * [title](html/tags/TITLE.md)
+* [vim](vim/README.md)
 * ООП
    [Полиморфизм](theory/oop/POLYMORPHIZM.md)
