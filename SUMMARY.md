@@ -142,7 +142,7 @@
    * [Создание приложения](django/CREATE_APP.md)
    * [Настройка базы данных](django/DB_SETUP.md)
 * [PostgreSQL](postgres/README.md)
-   * [Терминология](databases/THEORY.md)
+   * [Терминология](postgres/THEORY.md)
    * [Основы архитектуры](postgres/ARCHITECTURE.md)
    * [Работа с базами данных](postgres/databases/README.md)
       * [Создание](postgres/databases/CREATION.md)
