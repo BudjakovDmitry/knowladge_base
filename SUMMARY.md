@@ -179,6 +179,8 @@
    * [Представления](postgres/views/README.md)
    * [Аутентификация](postgres/auth/README.md)
       * [pg_hba.conf](postgres/auth/PG_HBA_CONF.md)
+   * [Резервное копирование и восстановление](postgres/backup/README.md)
+      * [Выгрузка в SQL](postgres/backup/UPLOAD_TO_SQL.md)
    * Клиентские приложения
       * [psql](postgres/clients/PSQL.md)
 * PyPI
