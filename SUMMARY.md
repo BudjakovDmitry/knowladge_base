@@ -182,6 +182,9 @@
    * [Резервное копирование и восстановление](postgres/backup/README.md)
       * [Выгрузка в SQL](postgres/backup/UPLOAD_TO_SQL.md)
    * Клиентские приложения
+      * [pg_dump](postgres/clients/PG_DUMP.md)
+      * [pg_dumpall](postgres/clients/PG_DUMPALL.md)
+      * [pg_restore](postgres/clients/PG_RESTORE.md)
       * [psql](postgres/clients/PSQL.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
