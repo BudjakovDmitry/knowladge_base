@@ -21,3 +21,16 @@ createdb
 ```sql
 CREATE DATABASE db_name;
 ```
+
+```sql
+CREATE DATABASE db_name
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+```
+
+Параметры БД
+* OWNER - пользователь, который владеет базой данных. По умочанию - postgres.
+* ECODING - кодировка, которая будет использована для представления символов в БД
+* CONNECTION LIMIT - ограничение на количество подключений к БД. -1 - ограничения нет
