@@ -148,7 +148,7 @@
       * [Создание](postgres/databases/CREATION.md)
       * [Удаление](postgres/databases/DELETION.md)
       * [Подключение](postgres/databases/CONNECTION.md)
-   * [Схемы](databases/SCHEMAS.md)
+   * [Схемы](postgres/schemas/README.md)
    * [Типы данных](postgresql/datatypes/README.md)
       * [Числовые типы](postgresql/datatypes/NUMBERS.md)
       * [Строковые типы](postgresql/datatypes/STRINGS.md)
