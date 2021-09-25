@@ -27,6 +27,8 @@
       * Программирование на bash
          * [Оболочка](linux/scripting/SHELL.md)
          * [Основы](linux/scripting/BASICS.md)
+         * [Ветвления](linux/scripting/IF.md)
+         * [Циклы](linux/scripting/CICLES.md)
       * [Работа с текстовыми файлами](linux/text/README.md)
          * [cat](linux/text/CAT.md)
          * [less](linux/text/LESS.md)
