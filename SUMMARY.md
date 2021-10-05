@@ -129,6 +129,7 @@
       * [random](python/stl/RANDOM.md)
       * [site](python/stl/SITE.md)
       * [sys](python/stl/SYS.md)
+   * [virtualenv](python/virtualenv/README.md)
 * pytest
    * [Установка](pytest/INSTALL.md)
    * [Запуск тестов](pytest/RUN_TEST.md)
@@ -138,6 +139,8 @@
    * [Заглушки](pytest/monkeypatching/README.md)
       * [Функции](pytest/monkeypatching/MOCK_FUNCTIONS.md)
       * [Переменные окружения](pytest/monkeypatching/ENV.md)
+* Flask
+   * [Установка](flask/INSTALL.md)
 * Django
    * [Установка](django/INSTALL.md)
    * [Создание проекта](django/CREATE_PROJECT.md)
