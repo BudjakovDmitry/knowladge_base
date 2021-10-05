@@ -1,0 +1,356 @@
+# Создание приложения
+
+## Структура приложения
+
+   app/
+   |--app.py
+   |--config.py
+   |--main.py
+   |--view.py
+   |--models.py
+
+В модуле `app.py` будет создаваться наше приложение
+
+Модуль `main.py` будет являтся точкой входа
+
+В модуле `config.py` будет хранится конфигурация приложения
+
+## MVC
+
+Flask реализует паттерн MVC (Model, View, Controller).
+
+__Model__ - раздел кода, который отвечает за описание моделей. Это те данные, которые хранятся в базе данных.
+
+__View__ отвечает за отображение пользователю данных.
+
+__Controller__ - это связующее звенно между пользователем, базой данных и приложением. Controller отвечает за получение от пользователя запроса и обработку этого запроса. Т.е. после того, как запрос обработан, сформирована страница и эта страница отдается пользователю. За это отвечает controller.>
+
+## Создание приложения
+
+```python
+# content of app.py
+from flask import Flask
+
+
+app = Flask(__name__)
+```
+
+1. Импорт класса Flask. Экземпляр этого класса будет нашим WSGI приложением.
+2. Создаем экземпляр класса Flask. Традиционно приложения называют app. Первым аргументом передается имя модуля приложения. \_\_name\_\_ - имя текущего файла. Благодаря этому имени (пути к модулю), Flask будет знать, где искать ресурсы, такие как шаблоны и файлы статики.
+
+## Точка входа
+
+Чтобы запустить созданное приложение, необходимо создать точку входа. Она будет располагаться в файле `main.py`.
+
+```python
+# content of main.py
+from app import app
+
+
+if __name__ == '__main__':
+    # при запуске модуля main, будет вызван метод run экземпляра приложения
+    app.run()
+```
+
+Для того, чтобы запустить приложение, нужно выполнить скрипт main.py
+
+```bash
+python main.py
+```
+
+## Режим отладки
+
+Каждый раз при внесении правок в код, нам придется перезапускать сервер приложения. Это неудобно. Для решения этой проблемы Flask предоставляет режим отладки. Активировать этот режим можно несколькими способами.
+
+* Как аргумент при вызове метода `run()` у экземпляра приложения: `app.run(debug=True)
+
+## Конфигурация приложения
+
+```python
+# content of config.py
+
+class Configuration:
+    DEBUG = True
+```
+
+У экземпляра приложения (app) есть атрибут `config`. Это объект, который обладает свойствами словаря. Он содержит конфигурационные параметры приложения.
+
+Объект config обладает методами:
+
+* `from_envvar`
+* `from_file`
+* `from_json`
+* `from_mapping`
+* `from_object`
+* `from_pyfile`
+
+Эти методы позволяют наполнять словарь config свойствами, например из json-объекта, или из объекта и т.д. соответственно.
+
+Чтобы передать конфигурацию, указанную в классе Configuration в наше приложение нужно воспользоваться одним из этих методов:
+
+```python
+# content of app.py
+from config import Configuration
+
+app.config.from_object(Configuration)
+```
+
+## views
+
+```python
+# content of views.py
+from app import app
+
+@app.route('/')
+def index():
+    return 'Hello world'
+```
+
+`/` в декораторе route означает корень сайта.
+
+Чтобы сообщить приложению о том, что у нас есть вьюхи, нужно в модуле main.py их импортировать
+
+```python
+# content of main.py
+import views
+```
+
+Как это работает. Где-то в глубине Flask есть словарь примерно такого вида: `{'/': 'view.index'}`. Ключами выступают пути, по которым пользователь обращается к ресурсам. Значениями являются вьюхи, которые обрабытвывают эти роуты в формате модуль.функция.
+
+Одну и ту же функцию можно задать для обработки разных роутов
+
+```python
+@app.route('/')
+@app.route('/hello')
+def index():
+    return 'Hello world'
+```
+
+## HTML шаблоны
+
+HTML шаблоны должны лежать в папке templates. Если приложение является модулем, то эта папка должна лежать рядом с модулем. Если приложение является пакетом, то папка должна лежать внутри пакета
+
+   /app.py
+   /templates
+      /hello.html
+
+   /app
+      /__init__.py
+      /templates
+         /hello.html
+
+Чтобы указать приложению использовать шаблон, используется функция `render_template`
+
+```python
+from flask import render_template
+
+@app.route('/')
+def index():
+    # template_name.html - имя шаблона в папке template
+    return render_template('template_name.html')
+```
+
+В шаблоне можно использовать переменные, которые будут подставляться туда динамически.
+
+```html
+# content of index.html
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+    <h2>Hello, {{ name }}</h2>
+</body>
+</html>
+```
+
+```python
+@app.route('/')
+def index():
+    user_name = "Ivan"
+    return render_template("index.html", name=user_name)
+```
+
+## blueprint
+
+Blueprint - это кусок изолированной функциональности. Изолированный настолько, что его можно взять и перенести в другой проект. Это какие-то блоки функциональности, у которых есть свой код, который определяет поведение, свои CSS-стили, шаблоны, JavaScript файлы.
+
+Внутри папки с нашим приложением создадим папку posts, внутри которой создадим файл blueprint.py
+
+```python
+# content of blueprint.py
+from flask import Blueprint
+
+posts = Blueprint('posts', __name__, template_folder='templates')
+```
+
+Конструктор класса Blueprint первым параметром принимает название проекта (blueprint). В нашем примере 'posts'. Вторым параметром идет имя текущего файла. Имя нужно для того, что отталкиваясь от расположения текущего файла Flask бует находить необходимые файлы, необходимые для работы данного проекта. Третьим аргументом мы явно указываем имя папки, в которой хранятся шаблоны. Эта папка должна присутствовать в директории с проектом posts.
+
+Теперь нужно этот проект зарегистрировать в приложении.
+
+```python
+# content of app.py
+from posts.blueprint import posts
+
+app.register_blueprint(posts, url_prefix='/blog')
+```
+
+`url_prefix` - это путь к проекту. Например: https://site.ru/blogs
+
+Теперь можно создавать вьюхи для нашего проекта posts
+
+```python
+# content of posts.blueprint.py
+@posts.route('/')
+def index():
+    return "This in blog"
+```
+
+## Работа с данными
+
+Для работы с базой данных будем использовать пакет `flask-sqlalchemy`. Его нужно предварительно установить. Также может потребоваться драйвер для работы с базой данных. Для postgresql он называется `psycopg2`.
+
+
+```bash
+pip install flask-sqlalchemy
+pip install psycopg2
+```
+
+Чтобы сказать приложению, где находится база данных и как к ней подключиться, нужно в конфигурации приложения задать параметр `SQLALCHEMY_DATABASE_URI`. Для Postgresql эта строка будет выглядеть так: "postgresql://user:pass@host/db_name".
+
+* user - имя пользователя
+* pass - пароль для доступа к БД
+* host - адрес сервера (для локального подключения будет 127.0.0.1)
+* db_name - имя БД, к которой нужно подключиться
+
+```python
+# content of config.py
+class Config:
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:postgres@127.0.0.1/test_blog'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+```
+
+`SQLALCHEMY_TRACK_MODIFICATIONS` если установлено в True, то Flask-SQLAlchemy будет отслкживать модификации объектов и в случае изменения создават сигналы. Например, нужно сделать какое-то действие перед тем, как данные будут записаны в БД или сразу после того, как данные будут записаны в БД. По умолчанию принимает значение None, что активирует отслеживание модификаций, но при этом при старте приложеия появляется предупреждение о том, что данная функция будет выпилена в будущем. Данная функция увеличивает расход памяти и без необходимости включать ее не следует.
+
+Теперь создаем экземпляр класса SQLAlchemy
+
+```python
+# content of app.py
+from flask_sqlqlchemy import SQLAlchemy
+
+db = SQLAlchemy(app)
+```
+
+Созданный экземпляр класса SQLAlchemy нужно импортировать в точку входа
+
+```python
+# content of main.py
+from app import db
+```
+
+Модели будут храниться в файле models.py.
+
+```python
+# content of models.py
+from datetime import datetime
+import re
+
+from app import db
+
+def slugify(s):
+    pattern = r'[^\w+]'
+    return re.sub(pattern, '-', s)
+
+class Post(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(140))
+    slug = db.Column(db.String(140), unique=True)  # человеко-понятный url
+    body = db.Column(db.Text)
+    created = db.Column(db.DateTime, default=datetime.now)
+
+    def __init__(self, *args, **kwargs):
+        super(Post, self).__init__(*args, **kwargs)
+        generate_slug()
+
+    def generate_slug(self):
+        if self.title:
+            self.slug = slugify(self.title)
+
+    def __repr__(self):
+        return f'<Post id: {self.id}, title: {self.title}>'
+```
+
+Теперь в интерактивном режиме попробуем поиграться с БД
+
+Для начала создадим таблицы в БД. Чтобы создать таблицы в соответствие с моделями, у экземпляра класса SQLAlchemy есть метод `create_all`
+
+```python
+>>>import models
+>>>from app import db
+>>>db.create_all()  # метод create_all создает в БД таблицы в соответствии с моделями
+```
+
+Чтобы работать с запсями в таблицах (CRUD) нужно работать с соответствующими моделями
+
+Чтобы сохранять объекты в базу нужно сначала создать объект, который будет соответствовать создаваемой записи (экземпляр класса), затем добавить этот объект в объект session. Объект session хранит все манипуляции с БД. В конце нужно записать изменения в базу с помощью метода commit
+
+```python
+>>>from models import Post
+>>># создаем в оперативной памяти экземпляр класса Post
+>>>p1 = Post(title='First post title', body='First post body')
+>>># сохраняем экземпляр p1 в базу данных
+>>># объект db.session хранит все манипуляции над БД
+>>>db.session.add(p1)
+>>>db.session.commit()
+```
+
+Примеры, как извлекать данные
+
+```python
+# извлечь все записи
+posts = Post.query.all()
+
+# поиск по фрагменту текста
+p1 = Post.query.filter(Post.title.contains('second')).all()
+
+# поиск по точному совпадению
+p2 = Post.query.filter(Post.id == 2).all()
+
+# метод all возвращает список объектов.
+# Вместо него можно использовать метод first он вернет первый найденный обхект
+p2 = Post.query.filter(Post.id == 1).first()
+```
+
+Чтобы отображать во вьюхе список постов, нам нужно в файле posts.blueprint.py импортировать модель Post
+
+```python
+# content of post.blueprint.py
+from models import Post
+```
+
+Теперь, если мы попробуем запустить проект, то получим ошибку циклического импортирования. Чтобы убрать это, перенесем регистрацию блюпринта в модуль main.py
+
+```python
+# main.py
+from posts.blueprint import posts
+
+app.register_blueprint(posts, url_prefix='/blog')
+```
+
+## Миграции
+
+Миграция - это обновление структуры БД от одной версии до другой версии. Для осуществления миграций у Flask есть расширение `flask-migrate`. Это расширение является оберткой для Alembic, основой для миграции баз данных SQLAlchemy.
+
+```bash
+pip install flask-migrate
+```
+
+Flask-migrate управляется через команду `flask`. Все что связано с миграциями баз данных управляется подкомандой `flask db`. Первое что требуется сделать - это создать репозиторий миграций, выполнив `flask db init`.
+
+```bash
+$ flask db init
+```
+
+После запуска этой команды будет создан новый каталог migrations, в котором есть несколько служебный файлов и подкаталог с версиями. Все эти файлы теперь должны рассматриваться как часть проекта и их необходимо добавить в систему контроля версиями.
