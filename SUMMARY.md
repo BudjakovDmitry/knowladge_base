@@ -141,6 +141,7 @@
       * [Переменные окружения](pytest/monkeypatching/ENV.md)
 * Flask
    * [Установка](flask/INSTALL.md)
+   * [Создание приложения](flask/CREATE_APP.md)
 * Django
    * [Установка](django/INSTALL.md)
    * [Создание проекта](django/CREATE_PROJECT.md)
