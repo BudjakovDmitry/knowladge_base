@@ -29,6 +29,8 @@
          * [Основы](linux/scripting/BASICS.md)
          * [Ветвления](linux/scripting/IF.md)
          * [Циклы](linux/scripting/CICLES.md)
+         * [Функции](linux/scripting/FUNCTIONS.md)
+         * [Внешние программы](linux/scripting/OUTER_PROGRAMS.md)
       * [Работа с текстовыми файлами](linux/text/README.md)
          * [cat](linux/text/CAT.md)
          * [less](linux/text/LESS.md)
