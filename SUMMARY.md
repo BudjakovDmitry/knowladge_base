@@ -184,6 +184,7 @@
       * [count](postgres/aggregate_functions/COUNT.md)
       * [max](postgres/aggregate_functions/MAX.md)
       * [min](postgres/aggregate_functions/MIN.md)
+      * [sum](postgres/aggregate_functions/SUM.md)
    * [Индексы](databases/INDEX.md)
    * [Представления](postgres/views/README.md)
    * [Аутентификация](postgres/auth/README.md)
