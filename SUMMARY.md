@@ -35,6 +35,7 @@
          * [cat](linux/text/CAT.md)
          * [less](linux/text/LESS.md)
          * [namo](linux/text/NANO.md)
+         * [sed](linux/text/SED.md)
       * Интернет
          * [wget](linux/internet/WGET.md)
       * Архивы
