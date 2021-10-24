@@ -142,7 +142,7 @@ SELECT DISTINCT column_1, column_2
 FROM tablename;
 ```
 
-## LIKE
+## Like
 
 Ключевое слово LIKE используется для поиска строк по шалону.
 
@@ -165,4 +165,17 @@ FROM tablename;
 SELECT last_name, first_name
 FROM employees
 WHERE first_name LIKE '%n';
+```
+
+## Limit
+
+Limit ограничивает количество выводимых записей. Ключевое слово LIMIT ставится в запросе в самом конце.
+
+```sql
+-- вывести первые 10 имен сотрудников с вамилией Smith, отсортированных по дате их приема на работу.
+SELECT first_name, last_name
+FROM employees
+WHERE last_name = 'Smith'
+ORDER BY employment_date
+LIMIT 10;
 ```
