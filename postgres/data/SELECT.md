@@ -219,3 +219,18 @@ GROUP BY category_id
 ORDER BY SUM(units_in_stock) DESC
 LIMIT 5;
 ```
+
+### Having
+
+HAVING, также как и WHERE, служит для фильтрации строк. Но where фильтрует строки до группировки, а having фильтрует после группировки. Соответственно, having имеет смысл использовать только вместе с group by.
+
+```sql
+-- вывести категории товаров, в которых продаж осуществляется больше чем на указанную сумму.
+-- причем нас интересуют только те товары, которые будут впредь продаваться (discontinued <> 1)
+SELECT category_id, SUM(unit_price * units_in_stock)
+FROM products
+WHERE discontinued <> 1
+GROUP BY category_id
+HAVING SUM(unit_price * units_in_stock) > 5000
+ORDER BY SUM(unit_price * units_in_stock) DESC;
+```
