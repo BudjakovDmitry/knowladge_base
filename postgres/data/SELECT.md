@@ -235,6 +235,10 @@ HAVING SUM(unit_price * units_in_stock) > 5000
 ORDER BY SUM(unit_price * units_in_stock) DESC;
 ```
 
+## Операции над множествами
+
+В данном разделе описаны операции над множествами: объединение (union), пересечение (intersect) и исключение.
+
 ## Union
 
 Union делает объединение результатов двух запросов.
@@ -255,6 +259,20 @@ FROM employees;
 SELECT country
 FROM customers
 UNION ALL
+SELECT country
+FROM employees;
+```
+
+## Intersect
+
+Intersect делает пересечение двух множеств.
+
+Допустим, нужно выбрать страны в которых есть и заказчики и сотрудники.
+
+```sql
+SELECT country
+FROM customers
+INTERSECT
 SELECT country
 FROM employees;
 ```
