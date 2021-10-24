@@ -140,7 +140,7 @@ FROM orders
 WHERE order_date IS NOT NULL;
 ```
 
-## order by
+## Order by
 
 Результат запроса можно отсортировать в нужном порядке с помощью предложения `ORDER BY`. Сортировать можно по одному или нескольким столбцам. Когда мы сортируем по нескольким столбцам, то сортировка по каждому следующему столбцу не будет нарушать сортировки по предыдущим столбцам.
 
@@ -198,4 +198,24 @@ FROM employees
 WHERE last_name = 'Smith'
 ORDER BY employment_date
 LIMIT 10;
+```
+
+## Group by
+
+Group by в запросе располагается между where и order by.
+
+Пример: посчитать количество заказов, вес которых превышает 50 кг, отправляемых в каждую страну и отсортировать по колчеству.
+```sql
+SELECT ship_country, COUNT(*)
+FROM orders
+WHERE freight > 50
+GROUP BY ship_country
+ORDER BY COUNT(*) DESC;
+
+-- посчитать сумму товаров в продаже по каждой категории
+SELECT category_id, SUM(units_in_stock)
+FROM products
+GROUP BY category_id
+ORDER BY SUM(units_in_stock) DESC
+LIMIT 5;
 ```
