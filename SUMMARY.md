@@ -177,7 +177,7 @@
       * [Удаление](postgres/data/DELETE.md)
    * [Соединения](postgres/joins/README.md)
    * Встроенные функции
-      * [Дата и время](databases/functions/DATETIME.md)
+      * [Дата и время](postgres/functions/DATETIME.md)
    * [Агрегатные функции](postgres/aggregate_functions/README.md)
       * [array_agg](postgres/aggregate_functions/ARRAY_AGG.md)
       * [avg](postgres/aggregate_functions/AVG.md)
