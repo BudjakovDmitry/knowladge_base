@@ -36,7 +36,67 @@ SQL поддреживает математические операции:
 * `|/` квадратный корень
 * множество других операторов и функций
 
-Оператор `AS` позволяет задать имя исходному столбцу (слово AS можно опестить).
+## Псевднимы
+
+Оператор `AS` позволяет задать имя исходному столбцу (слово AS можно опустить).
+
+```sql
+SELECT count(*) AS employees_count
+FROM employees;
+```
+
+Такими псевдонимами не получится воспользоваться в условии WHERE, потому что, когда отрабатывает WHERE, псевдонимы еще не назначены. Сначала отрабатывают FROM и WHERE, а потом SELECT. Аналогично не получится воспользоваться псевдонимами в HAVING.
+
+Псевдонимами можно пользоваться в GROUP BY и ORDER BY, так как эти части отрабатывают после того, как произойдет SELECT. Также псевдонимы можно использоваться в подзапросах.
+
+```sql
+SELECT city, count(*) as employees_count
+FROM employees
+GROUP BY city
+ORDER BY employees_count DESC;
+```
+
+```sql
+SELECT category_id, SUM(unit_price * units_in_stock) AS total_price
+FROM products
+WHERE discontinued <> 1
+GROUP BY category_id
+HAVING SUM(unit_price * units_in_stock) > 5000 --не получится воспользоваться псевдонимом.
+ORDER BY total_price DESC;
+```
+
+Псевдонмы можно давать таблицам.
+
+```sql
+SELECT *
+FROM table_1 AS t1
+    JOIN table_2 AS t2 ON t2.col_1 = t1.col_1
+WHERE t1.col_2 is NULL;
+```
+
+## Конкатенация
+
+```sql
+SELECT first_name,
+       last_name,
+       first_name || ' ' || last_name AS concat_name
+FROM employees;
+```
+
+first_name | last_name | concat_name
+--- | --- | ---
+John | Smith | John Smith
+Dany | Robins | Dany Robins
+Anna | Gray | Anna Gray
+
+Еще можно использовать функцию `CONCAT`
+
+```sql
+SELECT first_name,
+       last_name,
+       CONCAT(first_name, ' ', last_name)
+FROM employees;
+```
 
 ## where
 
