@@ -159,6 +159,18 @@ WHERE country NOT IN ('Germany', 'USA', 'UK');
 
 Будут выбраны все клиенты, которые проживают в странах, отличных от указанных в списке.
 
+### any
+
+Выбрать всех сотружников из филиалов в Москве.
+
+```sql
+SELECT *
+FROM employees
+WHERE department_id = ANY(SELECT department_id
+                          FROM departments
+                          WHERE city = 'Moscow');
+```
+
 ### Like
 
 Ключевое слово LIKE используется для поиска строк по шалону.
