@@ -187,6 +187,7 @@
       * [sum](postgres/aggregate_functions/SUM.md)
    * [Индексы](databases/INDEX.md)
    * [Представления](postgres/views/README.md)
+   * [Безопасность](postgres/security/README.md)
    * [Аутентификация](postgres/auth/README.md)
       * [pg_hba.conf](postgres/auth/PG_HBA_CONF.md)
    * [Резервное копирование и восстановление](postgres/backup/README.md)
