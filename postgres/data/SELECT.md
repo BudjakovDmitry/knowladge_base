@@ -6,6 +6,8 @@
 
 ```sql
 SELECT * FROM tablename;
+-- альтеранитивная форма зписи
+SELECT tablename.* FROM tablename;
 ```
 
 `*` говорит, что нужно извлечь все столбцы. Часто в производственом стиле писать `*` считается плохим тоном, так как рзультат таких запросов будет меняться при добавлении новых столбцов.
@@ -69,9 +71,9 @@ ORDER BY total_price DESC;
 
 ```sql
 SELECT *
-FROM table_1 AS t1
-    JOIN table_2 AS t2 ON t2.col_1 = t1.col_1
-WHERE t1.col_2 is NULL;
+FROM employees e
+    JOIN departments d ON d.id = e.department_id
+WHERE d.city = 'Tokyo';
 ```
 
 ## Конкатенация
@@ -189,11 +191,18 @@ WHERE department_id = ANY(SELECT department_id
 * `LIKE '_oh_'` - строки, где 2 и 3 символы oh, а первый и последний - любые
 * `LIKE '_oh%'` - строки, где 2 и 3 символы - oh, первый - любой, в конце любое кодичество любых символов.
 
+Регистр символов в шаблонах имеет значение.
+
 ```sql
 -- найти всех сотрудников, у которых имя оканчивается на -n
 SELECT last_name, first_name
 FROM employees
 WHERE first_name LIKE '%n';
+
+-- найти всех сотрудников, у которых фамилия оканчивается НЕ на -ov
+SELECT last_name, first_name
+FROM employees
+WHERE last_name NOT LIKE '%ov';
 ```
 
 ### Check on NULL
@@ -239,7 +248,7 @@ SELECT DISTINCT country
 FROM customers
 ORDER BY country DESC;
 
-SELECT DIXTINCT country, city
+SELECT DISTINCT country, city
 FROM customers
 ORDER BY country ASC, city DESC
 ```
@@ -257,6 +266,13 @@ SELECT DISTINCT column1 FROM tablename;
 ```sql
 SELECT DISTINCT column_1, column_2
 FROM tablename;
+```
+
+Ключево слово DISTINCT всегда идет вместе с именем столбца:
+
+```sql
+SELECT count(DISTINCT first_name)
+from employees;
 ```
 
 ## Limit
