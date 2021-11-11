@@ -105,3 +105,21 @@ ALTER TABLE products ALTER COLUMN price DROP DEFAULT;
 ```
 
 При этом, по сути значению по умолчанию просто присваивается NULL. Следовательно, не будет ошибки, исли попытаться удалить значение по умолчанию, не определенное явно, так как неявно оно существует и равняется NULL.
+
+## Изменение типа столбца
+
+```sql
+ALTER TABLE table_name ALTER COLUMN column_name SET DATA TYPE data_type;
+```
+
+## Переименование столбца
+
+```sql
+ALTER TABLE table_name RENAME old_column_name TO new_column_name;
+```
+
+## Переименование таблицы
+
+```sql
+ALTER TABLE table_name RENAME TO new_table_name;
+```
