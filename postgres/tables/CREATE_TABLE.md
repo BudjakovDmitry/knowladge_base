@@ -71,6 +71,16 @@ CREATE TABLE progress
 
 ## Ограничения
 
+У всех ограничений есть имена. Имена можно задавать либо самостоятельно, либо они будут сгенерированы автоматически. Имена можно посмотреть, выполнив запрос
+
+```sql
+SELECT constraint_name
+FROM information_schema.key_column_usage
+WHERE table_name = 'students' AND  --имя таблицы
+      table_schema = 'public' AND  --имя схемы
+      column_name = 'student_id';  --фильтр по конкретному столбцу
+```
+
 ### CHECK
 
 Ограничение-проверка.
@@ -241,6 +251,18 @@ CREATE TABLE students
    record_book numeric(5),
    ...
    PRIMARY KEY (record_book)
+);
+```
+
+или используя конструкцию CONSTRAINT и задать имя
+
+```sql
+CREATE TABLE students
+(
+    student_id serial,
+    first_name VARCHAR,
+    last_name VARCHAR,
+    CONSTRAINT student_pk PRIMARY KEY (student_id)
 );
 ```
 

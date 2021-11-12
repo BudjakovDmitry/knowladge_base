@@ -58,6 +58,8 @@ ALTER TABLE products ADD CONSTRAINT some_name UNIQUE (product_no);
 
 ALTER TABLE products ADD FOREIGN KEY (product_group_id)
     REFERENCES product_groups;
+
+ALTER TABLE products ADD PRIMARY KEY (products_id);
 ```
 
 Чтобы добавить ограничение NOT NULL, которое нельзя записать в виде ограничения таблицы, используется синтаксис:
@@ -70,7 +72,16 @@ ALTER TABLE products ALTER COLUMN product_no SET NOT NULL;
 
 ## Удаление ограничения
 
-Для удаления ограничения необходимо знать его имя. Чтобы узнать имя ограничения можно в клиенте psql воспользоваться командой \d table_name. Зная имя ограничения, нужно поспользоваться командой.
+Для удаления ограничения необходимо знать его имя. Чтобы узнать имя ограничения можно в клиенте psql воспользоваться командой \d table_name или выполнить запрос
+
+```sql
+SELECT constraint_name
+FROM information_schema.key_column_usage
+WHERE table_name = 'students' AND
+      table_schema = 'public';
+```
+
+Зная имя ограничения, нужно поспользоваться командой.
 
 ```sql
 ALTER TABLE products DROP CONSTRAINT constraint_name;
