@@ -54,6 +54,10 @@ ALTER TABLE products DROP COLUMN description CASCADE;
 ```sql
 ALTER TABLE products ADD CHECK (name <> '');
 
+-- Добавление стоблцу значения по умолчанию
+ALTER TABLE products
+ALTER COLUMN price SET DEFAULT 100;
+
 ALTER TABLE products ADD CONSTRAINT some_name UNIQUE (product_no);
 
 ALTER TABLE products ADD FOREIGN KEY (product_group_id)
