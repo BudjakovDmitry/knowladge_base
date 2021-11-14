@@ -59,6 +59,10 @@ ALTER TABLE products ADD CONSTRAINT some_name UNIQUE (product_no);
 ALTER TABLE products ADD FOREIGN KEY (product_group_id)
     REFERENCES product_groups;
 
+ALTER TABLE products
+ADD CONSTRAINT FK_group_id FOREIGN KEY (product_group_id)
+                           REFERENCES product_groups (group_id);
+
 ALTER TABLE products ADD PRIMARY KEY (products_id);
 ```
 
