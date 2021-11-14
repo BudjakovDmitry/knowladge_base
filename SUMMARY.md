@@ -170,6 +170,7 @@
       * [Создание таблиц](postgres/tables/CREATE_TABLE.md)
       * [Удаление таблиц](postgres/tables/DROP_TABLE.md)
       * [Модификация таблиц](postgres/tables/ALTER_TABLE.md)
+   * [Последовательности](postgres/sequences/README.md)
    * Операции с данными
       * [Вставка](postgres/data/INSERT.md)
       * [Выборка](postgres/data/SELECT.md)
