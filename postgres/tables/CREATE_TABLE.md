@@ -317,6 +317,17 @@ CREATE TABLE progress
 );
 ```
 
+Задание внешнего ключа через конструкцию CONSTRAINT с указанием имени
+
+```sql
+CREATE TABLE progress
+(
+    record_book numeric(5),
+    ...
+    CONSTRAINT FK_student_id FOREIGN KEY (record_book) students (record_book)
+);
+```
+
 Число атрибутов и их типы во внешнем ключе ссылающейся таблицы и в первичном ключе ссылочной таблицы должны быть согласованы.
 
 Как и любому другому ограничению, ограничению внешнего ключа можно присвоить наименование с помощью ключевого слова CONSTRAINT.
