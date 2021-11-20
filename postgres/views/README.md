@@ -110,7 +110,6 @@ VAUES (...);
 DELETE FROM view_name
 WHERE conditions;
 ```
-```
 
 ## Check option
 

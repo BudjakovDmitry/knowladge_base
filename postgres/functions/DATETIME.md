@@ -59,3 +59,16 @@ SELECT date_trunc('hour', current_timestamp);
 ```sql
 SELECT extract('mon' FROM timestamp '1999-11-27 12:34:56')
 ```
+
+## date_part
+
+Извлекает данные из даты
+
+Получить месяцы рождения сотрудников
+
+```sql
+SELECT first_name,
+       last_name,
+       date_part('month', birth_date)
+FROM employees;
+```

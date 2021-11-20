@@ -176,6 +176,7 @@
       * [Выборка](postgres/data/SELECT.md)
       * [Обновление](postgres/data/UPDATE.md)
       * [Удаление](postgres/data/DELETE.md)
+   * [Case](postgres/case/README.md)
    * [Соединения](postgres/joins/README.md)
    * Встроенные функции
       * [Дата и время](postgres/functions/DATETIME.md)
