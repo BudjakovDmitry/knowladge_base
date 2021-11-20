@@ -177,6 +177,8 @@
       * [Обновление](postgres/data/UPDATE.md)
       * [Удаление](postgres/data/DELETE.md)
    * [Case](postgres/case/README.md)
+   * [COALESCE](postgres/coalesce/README.md)
+   * [NULLIF](postgres/nullif/README.md)
    * [Соединения](postgres/joins/README.md)
    * Встроенные функции
       * [Дата и время](postgres/functions/DATETIME.md)
