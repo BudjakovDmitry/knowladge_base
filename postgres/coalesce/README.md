@@ -12,3 +12,11 @@ SELECT first_name,
        COALESCE(auto_number, 'no') auto_number1
 FROM employees;
 ```
+
+Пример использования COALESCE внутри блока order by: вывести список сотрудников,отсортировав по фамилии и городу, а если город не указан, то по стране
+
+```sql
+SELECT first_name, last_name, city, country
+FROM employees
+ORDER BY last_name, coalesce(city, country);
+```
