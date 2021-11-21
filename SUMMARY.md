@@ -153,6 +153,7 @@
 * Базы данных
    * [Терминолония](databases/TERMS.md)
    * [Модели данных](databases/DATAMODEL.md)
+   * [SQL](databases/SQL.md)
    * [Проектирование баз данны](db_design/README.md)
    * [PostgreSQL](postgres/README.md)
       * [Терминология](postgres/THEORY.md)
