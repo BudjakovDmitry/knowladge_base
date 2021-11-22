@@ -156,7 +156,6 @@
    * [SQL](databases/SQL.md)
    * [Проектирование баз данны](db_design/README.md)
    * [PostgreSQL](postgres/README.md)
-      * [Терминология](postgres/THEORY.md)
       * [Основы архитектуры](postgres/ARCHITECTURE.md)
       * [Работа с базами данных](postgres/databases/README.md)
          * [Создание](postgres/databases/CREATION.md)
@@ -185,6 +184,7 @@
       * [COALESCE](postgres/coalesce/README.md)
       * [NULLIF](postgres/nullif/README.md)
       * [Соединения](postgres/joins/README.md)
+      * [Функции](postgres/functions/FUNCTIONS.md)
       * Встроенные функции
          * [Дата и время](postgres/functions/DATETIME.md)
       * [Агрегатные функции](postgres/aggregate_functions/README.md)
