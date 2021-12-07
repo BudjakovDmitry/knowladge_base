@@ -185,7 +185,9 @@
       * [NULLIF](postgres/nullif/README.md)
       * [Соединения](postgres/joins/README.md)
       * [Функции](postgres/functions/FUNCTIONS.md)
+      * [PL/pgSQL](postgres/functions/PGSQL.md)
       * Встроенные функции
+         * [Числа](postgres/functions/NUMBERS.md)
          * [Дата и время](postgres/functions/DATETIME.md)
       * [Агрегатные функции](postgres/aggregate_functions/README.md)
          * [array_agg](postgres/aggregate_functions/ARRAY_AGG.md)
