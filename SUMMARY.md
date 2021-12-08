@@ -132,6 +132,7 @@
       * [random](python/stl/RANDOM.md)
       * [site](python/stl/SITE.md)
       * [sys](python/stl/SYS.md)
+   * [NumPy](python/numpy/README.md)
    * [virtualenv](python/virtualenv/README.md)
 * pytest
    * [Установка](pytest/INSTALL.md)
