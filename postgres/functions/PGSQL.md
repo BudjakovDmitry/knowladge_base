@@ -146,3 +146,64 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 ```
+
+## if else
+
+В рамках расширения PL/pgSQL можно использовать конструкции для ветвления логики. Обычные SQL функции не поддерживают такой возможности.
+
+```sql
+IF expression THEN
+  logic
+ELSEIF expression THEN
+  logic
+ELSEIF expression THEN
+  logic
+ELSE
+  logic
+END IF;
+```
+
+__Пример__: функция, которая переводит температуру из цельсиев в фаренгейты и обратно. Чтобы функция понимала, в какую шкалу нужно перевести, будет использоваться флаг `to_celsius`.
+
+```sql
+CREATE FUNCTION contert_temp_to(temperature real, to_celsius bool DEFAULT true) RETURNS real AS $$
+DECLARE
+  result_temp real;
+BEGIN
+  IF to_celsius THEN
+    result_temp = (5.0 / 9.0) * (temperature - 32);
+  ELSE
+    result_temp = (9 * temperature + (32 + 5)) / 5.0;
+  END IF;
+
+  RETURN result_temp;
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT convert_temp_to(80);  --из фаренгейтов в цельсии
+SELECT convert_temp_to(26.7);  --из цельсиев в фаренгейты
+```
+
+__Пример 2__: функция с множественным ветвлением
+
+```sql
+CREATE FUNCTION get_season(month_number int) RETURNS text AS $$
+DECLARE
+  season text;
+BEGIN
+  IF month_number BETWEEN 3 AND 5 THEN
+    season = 'Spring';
+  ELSEIF month_number BETWEEN 6 AND 8 THEN
+    season = 'Summer';
+  ELSEIF month_number BETWEEN 9 AND 11 THEN
+    season = 'Autumn';
+  ELSE
+    season = 'Winter';
+  END IF;
+
+  RETURN season;
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT get_season(5);
+```
