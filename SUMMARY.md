@@ -120,6 +120,7 @@
       * [min](python/built-in_functions/MIN.md)
       * [oct](python/built-in_functions/OCT.md)
       * [pow](python/built-in_functions/POW.md)
+      * [print](python/built-in_functions/PRINT.md)
       * [repr](python/built-in_functions/REPR.md)
       * [round](python/built-in_functions/ROUND.md)
       * [sum](python/built-in_functions/SUM.md)
