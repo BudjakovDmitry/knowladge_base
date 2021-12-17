@@ -73,6 +73,7 @@
          * [Cython](python/interpreter/CYTHON.md)
          * [Shed Skin](python/interpreter/SHED_SKIN.md)
    * [Операторы](python/operators/README.md)
+      * [Старшинство операторов](python/operators/PRIORITY.md)
    * [Типы данных](python/data_types/README.md)
       * [Числа](python/data_types/numbers/README.md)
          * [Целые числа](python/data_types/numbers/INTEGERS.md)
@@ -124,7 +125,9 @@
       * [print](python/built-in_functions/PRINT.md)
       * [repr](python/built-in_functions/REPR.md)
       * [round](python/built-in_functions/ROUND.md)
+      * [str](python/built-in_functions/STR.md)
       * [sum](python/built-in_functions/SUM.md)
+      * [type](python/built-in_functions/TYPE.md)
    * [Оформление кода](python/format/README.md)
    * Стандартная библиотека
       * [importlib](python/stl/IMPORTLIB.md)
