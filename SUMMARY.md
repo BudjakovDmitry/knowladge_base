@@ -241,7 +241,9 @@
       * [head](html/tags/HEAD.md)
       * [html](html/tags/HTML.md)
       * [p](html/tags/P.md)
+      * [style](html/tags/STYLE.md)
       * [title](html/tags/TITLE.md)
+* [CSS](css/README.md)
 * [vim](vim/README.md)
 * ООП
    [Полиморфизм](theory/oop/POLYMORPHIZM.md)
