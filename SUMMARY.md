@@ -237,6 +237,7 @@
    * [Конфигурационный файл](nginx/CONF_FILE.md)
 * [HTML](html/README.md)
    * [Блочные и строчные элементы](html/ELEMENT_TYPES.md)
+   * [Списки](html/LISTS.md)
    * [Теги](html/tags/README.md)
       * [body](html/tags/BODY.md)
       * [h1-h6](html/tags/H.md)
