@@ -252,6 +252,7 @@
       * [html](html/tags/HTML.md)
       * [img](html/tags/IMG.md)
       * [p](html/tags/P.md)
+      * [pre](html/tags/PRE.md)
       * [style](html/tags/STYLE.md)
       * [title](html/tags/TITLE.md)
 * [CSS](css/README.md)
