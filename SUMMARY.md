@@ -250,6 +250,7 @@
       * [h1-h6](html/tags/H.md)
       * [head](html/tags/HEAD.md)
       * [html](html/tags/HTML.md)
+      * [img](html/tags/IMG.md)
       * [p](html/tags/P.md)
       * [style](html/tags/STYLE.md)
       * [title](html/tags/TITLE.md)
