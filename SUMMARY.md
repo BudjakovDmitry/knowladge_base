@@ -246,6 +246,7 @@
       * [body](html/tags/BODY.md)
       * [br](html/tags/BR.md)
       * [code](html/tags/CODE.md)
+      * [em](html/tags/EM.md)
       * [h1-h6](html/tags/H.md)
       * [head](html/tags/HEAD.md)
       * [html](html/tags/HTML.md)
