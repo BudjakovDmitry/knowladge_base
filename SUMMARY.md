@@ -239,6 +239,7 @@
    * [Блочные и строчные элементы](html/ELEMENT_TYPES.md)
    * [Списки](html/LISTS.md)
    * [Ссылки на символы](html/SYMBOL_LINKS.md)
+   * [DOCTYPE](html/doctype/README.md)
    * [Теги](html/tags/README.md)
       * [body](html/tags/BODY.md)
       * [h1-h6](html/tags/H.md)
