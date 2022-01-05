@@ -214,6 +214,7 @@
          * [pg_dumpall](postgres/clients/PG_DUMPALL.md)
          * [pg_restore](postgres/clients/PG_RESTORE.md)
          * [psql](postgres/clients/PSQL.md)
+   * [Redis](redis/README.md)
 * PyPI
    * [Marshmallow](python/pypi/marshmallow/README.md)
 * [Rabbitmq](rabbitmq/README.md)
