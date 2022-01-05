@@ -242,6 +242,7 @@
    * [DOCTYPE](html/doctype/README.md)
    * [Теги](html/tags/README.md)
       * [a](html/tags/A.md)
+      * [blockquote](html/tags/BLOCKQUOTE.md)
       * [body](html/tags/BODY.md)
       * [h1-h6](html/tags/H.md)
       * [head](html/tags/HEAD.md)
