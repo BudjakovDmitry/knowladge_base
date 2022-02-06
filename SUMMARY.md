@@ -236,14 +236,11 @@
    * [Управление конфигурацией](nginx/SIGNALS.md)
    * [Конфигурационный файл](nginx/CONF_FILE.md)
    * [Раздача татического содержимого](nginx/STATIC_CONTENT.md)
-* [HTML](html/README.md)
+* HTML
    * [Блочные и строчные элементы](html/ELEMENT_TYPES.md)
    * [Списки](html/LISTS.md)
    * [Ссылки на символы](html/SYMBOL_LINKS.md)
-   * [DOCTYPE](html/doctype/README.md)
-   * [Теги](html/tags/README.md)
-      * [a](html/tags/A.md)
-      * [blockquote](html/tags/BLOCKQUOTE.md)
+   * Теги
       * [body](html/tags/BODY.md)
       * [br](html/tags/BR.md)
       * [code](html/tags/CODE.md)
