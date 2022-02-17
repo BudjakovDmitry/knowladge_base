@@ -103,6 +103,7 @@ SELECT * FROM get_customers_by_country('USA');
 CREATE FUNCTION func_name([arg1, arg2, ...]) RETURNS data_type AS $$
 DECLARE
   variable type; 
+  variable_1 type = n; --переменная со значением по умолчанию
 BEGIN
   --logic
 END;
