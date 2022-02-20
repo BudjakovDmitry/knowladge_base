@@ -239,7 +239,6 @@
 * HTML
    * [Блочные и строчные элементы](html/ELEMENT_TYPES.md)
    * [Списки](html/LISTS.md)
-   * [Ссылки на символы](html/SYMBOL_LINKS.md)
    * Теги
       * [body](html/tags/BODY.md)
       * [br](html/tags/BR.md)
