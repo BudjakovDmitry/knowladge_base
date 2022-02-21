@@ -240,7 +240,6 @@
    * [Блочные и строчные элементы](html/ELEMENT_TYPES.md)
    * [Списки](html/LISTS.md)
    * Теги
-      * [body](html/tags/BODY.md)
       * [br](html/tags/BR.md)
       * [code](html/tags/CODE.md)
       * [em](html/tags/EM.md)
