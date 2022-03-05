@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Linux](linux/README.md)
+* Linux
    * [Terminal](linux/terminal/README.md)
       * [Команды](linux/terminal/COMMANDS.md)
          * [cd](linux/terminal/CD.md)
