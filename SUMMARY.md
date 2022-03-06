@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * Linux
-   * [Terminal](linux/terminal/README.md)
+   * Terminal
       * [Команды](linux/terminal/COMMANDS.md)
          * [cd](linux/terminal/CD.md)
          * [chmod](linux/terminal/CHMOD.md)
