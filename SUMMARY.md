@@ -12,7 +12,6 @@
          * [free](linux/terminal/FREE.md)
          * [jobs](linux/terminal/JOBS.md)
          * [kill](linux/terminal/KILL.md)
-         * [ls](linux/terminal/LS.md)
          * [lscpu](linux/terminal/LSCPU.md)
          * [mkdir](linux/terminal/MKDIR.md)
          * [mv](linux/terminal/MV.md)
