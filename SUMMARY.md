@@ -60,7 +60,7 @@
 * [Markdown](markdown/README.md)
    * [Таблицы](markdown/TABLES.md)
 * [Python](python/README.md)
-   * [Интерпретатор](python/interpreter/README.md)
+   * Интерпретатор
       * [Порядок выполнения программ](python/interpreter/ORDER.md)
       * [Фиксированные двоичные файлы](python/interpreter/BINARY.md)
       * [Альтернативные реализации Python](python/interpreter/OTHER.md)
