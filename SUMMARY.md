@@ -64,7 +64,6 @@
       * [Порядок выполнения программ](python/interpreter/ORDER.md)
       * [Фиксированные двоичные файлы](python/interpreter/BINARY.md)
       * Альтернативные реализации Python
-         * [IronPython](python/interpreter/IRONPYTHON.md)
          * [Stackless](python/interpreter/STACKLESS.md)
          * [PyPy](python/interpreter/PYPY.md)
          * [Cython](python/interpreter/CYTHON.md)
