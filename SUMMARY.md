@@ -64,7 +64,6 @@
       * [Порядок выполнения программ](python/interpreter/ORDER.md)
       * [Фиксированные двоичные файлы](python/interpreter/BINARY.md)
       * Альтернативные реализации Python
-         * [Cython](python/interpreter/CYTHON.md)
          * [Shed Skin](python/interpreter/SHED_SKIN.md)
    * [Операторы](python/operators/README.md)
       * [Старшинство операторов](python/operators/PRIORITY.md)
