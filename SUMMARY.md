@@ -95,7 +95,6 @@
       * [ZeroDivisionError](python/exceptions/ZERO_DIVISION_ERROR.md)
    * Встроенные функции
       * [bin](python/built-in_functions/BIN.md)
-      * [dir](python/built-in_functions/DIR.md)
       * [float](python/built-in_functions/FLOAT.md)
       * [help](python/built-in_functions/HELP.md)
       * [hex](python/built-in_functions/HEX.md)
