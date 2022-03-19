@@ -60,8 +60,6 @@
 * [Markdown](markdown/README.md)
    * [Таблицы](markdown/TABLES.md)
 * [Python](python/README.md)
-   * Интерпретатор
-      * [Фиксированные двоичные файлы](python/interpreter/BINARY.md)
    * [Операторы](python/operators/README.md)
       * [Старшинство операторов](python/operators/PRIORITY.md)
    * [Типы данных](python/data_types/README.md)
