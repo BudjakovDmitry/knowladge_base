@@ -94,7 +94,6 @@
       * [SyntaxError](python/exceptions/SYNTAX_ERROR.md)
       * [ZeroDivisionError](python/exceptions/ZERO_DIVISION_ERROR.md)
    * Встроенные функции
-      * [abs](python/built-in_functions/ABS.md)
       * [bin](python/built-in_functions/BIN.md)
       * [complex](python/built-in_functions/COMPLEX.md)
       * [dir](python/built-in_functions/DIR.md)
