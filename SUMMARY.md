@@ -61,7 +61,6 @@
    * [Таблицы](markdown/TABLES.md)
 * [Python](python/README.md)
    * Интерпретатор
-      * [Порядок выполнения программ](python/interpreter/ORDER.md)
       * [Фиксированные двоичные файлы](python/interpreter/BINARY.md)
    * [Операторы](python/operators/README.md)
       * [Старшинство операторов](python/operators/PRIORITY.md)
