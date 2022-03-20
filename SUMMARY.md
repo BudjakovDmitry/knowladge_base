@@ -93,11 +93,6 @@
    * Исключения
       * [SyntaxError](python/exceptions/SYNTAX_ERROR.md)
       * [ZeroDivisionError](python/exceptions/ZERO_DIVISION_ERROR.md)
-   * Встроенные функции
-      * [bin](python/built-in_functions/BIN.md)
-      * [hex](python/built-in_functions/HEX.md)
-      * [oct](python/built-in_functions/OCT.md)
-      * [str](python/built-in_functions/STR.md)
    * [Оформление кода](python/format/README.md)
    * Стандартная библиотека
       * [importlib](python/stl/IMPORTLIB.md)
