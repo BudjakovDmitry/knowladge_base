@@ -96,8 +96,6 @@
    * Встроенные функции
       * [bin](python/built-in_functions/BIN.md)
       * [hex](python/built-in_functions/HEX.md)
-      * [int](python/built-in_functions/INT.md)
-      * [len](python/built-in_functions/LEN.md)
       * [list](python/built-in_functions/LIST.md)
       * [map](python/built-in_functions/MAP.md)
       * [max](python/built-in_functions/MAX.md)
