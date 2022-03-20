@@ -96,7 +96,6 @@
    * Встроенные функции
       * [bin](python/built-in_functions/BIN.md)
       * [hex](python/built-in_functions/HEX.md)
-      * [input](python/built-in_functions/INPUT.md)
       * [int](python/built-in_functions/INT.md)
       * [len](python/built-in_functions/LEN.md)
       * [list](python/built-in_functions/LIST.md)
