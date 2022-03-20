@@ -98,7 +98,6 @@
       * [hex](python/built-in_functions/HEX.md)
       * [oct](python/built-in_functions/OCT.md)
       * [str](python/built-in_functions/STR.md)
-      * [sum](python/built-in_functions/SUM.md)
       * [type](python/built-in_functions/TYPE.md)
    * [Оформление кода](python/format/README.md)
    * Стандартная библиотека
