@@ -97,7 +97,6 @@
       * [bin](python/built-in_functions/BIN.md)
       * [hex](python/built-in_functions/HEX.md)
       * [oct](python/built-in_functions/OCT.md)
-      * [repr](python/built-in_functions/REPR.md)
       * [round](python/built-in_functions/ROUND.md)
       * [str](python/built-in_functions/STR.md)
       * [sum](python/built-in_functions/SUM.md)
