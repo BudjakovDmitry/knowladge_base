@@ -83,7 +83,6 @@
    * [Переменные, объекты и ссылки](python/objects/README.md)
       * [Сборка мусора](python/objects/GARBAGE.md)
    * Циклы
-      * [break](python/cicles/BREAK.md)
       * [continue](python/cicles/CONTINUE.md)
    * [Модули](python/modules/README.md)
       * [Импортирование](python/modules/IMPORT.md)
