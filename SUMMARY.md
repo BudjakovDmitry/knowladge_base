@@ -82,8 +82,6 @@
       * [Изменяемость](python/data_types/MUTABLES.md)
    * [Переменные, объекты и ссылки](python/objects/README.md)
       * [Сборка мусора](python/objects/GARBAGE.md)
-   * Циклы
-      * [continue](python/cicles/CONTINUE.md)
    * [Модули](python/modules/README.md)
       * [Импортирование](python/modules/IMPORT.md)
    * [Документация](python/doc/README.md)
