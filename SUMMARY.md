@@ -198,7 +198,6 @@
    * [Раздача татического содержимого](nginx/STATIC_CONTENT.md)
 * HTML
    * [Блочные и строчные элементы](html/ELEMENT_TYPES.md)
-   * [Списки](html/LISTS.md)
    * Теги
       * [code](html/tags/CODE.md)
       * [em](html/tags/EM.md)
