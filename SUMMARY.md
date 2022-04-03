@@ -13,7 +13,6 @@
          * [jobs](linux/terminal/JOBS.md)
          * [kill](linux/terminal/KILL.md)
          * [lscpu](linux/terminal/LSCPU.md)
-         * [mkdir](linux/terminal/MKDIR.md)
          * [mv](linux/terminal/MV.md)
          * [nproc](linux/terminal/NPROC.md)
          * [pwd](linux/terminal/PWD.md)
