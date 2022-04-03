@@ -4,7 +4,6 @@
 * Linux
    * Terminal
       * [Команды](linux/terminal/COMMANDS.md)
-         * [cd](linux/terminal/CD.md)
          * [chmod](linux/terminal/CHMOD.md)
          * [cp](linux/terminal/CP.md)
          * [clear](linux/terminal/CLEAR.md)
