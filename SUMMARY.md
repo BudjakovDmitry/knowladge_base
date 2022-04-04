@@ -18,7 +18,6 @@
          * [ps](linux/terminal/PS.md)
          * [rm](linux/terminal/RM.md)
          * [top](linux/terminal/TOP.md)
-         * [touch](linux/terminal/TOUCH.md)
          * [which](linux/terminal/WHICH.md)
       * [Запуск исполняемых файлов](linux/executable/README.md)
       * Программирование на bash
