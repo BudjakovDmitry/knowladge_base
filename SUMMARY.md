@@ -14,7 +14,6 @@
          * [lscpu](linux/terminal/LSCPU.md)
          * [mv](linux/terminal/MV.md)
          * [nproc](linux/terminal/NPROC.md)
-         * [pwd](linux/terminal/PWD.md)
          * [ps](linux/terminal/PS.md)
          * [rm](linux/terminal/RM.md)
          * [top](linux/terminal/TOP.md)
