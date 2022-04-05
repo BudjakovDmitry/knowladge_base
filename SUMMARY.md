@@ -15,7 +15,6 @@
          * [mv](linux/terminal/MV.md)
          * [nproc](linux/terminal/NPROC.md)
          * [ps](linux/terminal/PS.md)
-         * [rm](linux/terminal/RM.md)
          * [top](linux/terminal/TOP.md)
          * [which](linux/terminal/WHICH.md)
       * [Запуск исполняемых файлов](linux/executable/README.md)
