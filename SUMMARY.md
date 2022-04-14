@@ -73,7 +73,7 @@
       * [Логический тип](python/data_types/bool/README.md)
       * [Последовательности](python/data_types/SEQUENCES.md)
       * [Изменяемость](python/data_types/MUTABLES.md)
-   * [Переменные, объекты и ссылки](python/objects/README.md)
+   * Переменные, объекты и ссылки
       * [Сборка мусора](python/objects/GARBAGE.md)
    * [Модули](python/modules/README.md)
       * [Импортирование](python/modules/IMPORT.md)
