@@ -71,7 +71,6 @@
          * [Методы](python/data_types/tuples/METHODS.md)
       * [Множества](python/data_types/sets/README.md)
       * [Логический тип](python/data_types/bool/README.md)
-      * [Последовательности](python/data_types/SEQUENCES.md)
       * [Изменяемость](python/data_types/MUTABLES.md)
    * Переменные, объекты и ссылки
       * [Сборка мусора](python/objects/GARBAGE.md)
