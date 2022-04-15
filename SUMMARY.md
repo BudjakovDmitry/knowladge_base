@@ -72,8 +72,6 @@
       * [Множества](python/data_types/sets/README.md)
       * [Логический тип](python/data_types/bool/README.md)
       * [Изменяемость](python/data_types/MUTABLES.md)
-   * Переменные, объекты и ссылки
-      * [Сборка мусора](python/objects/GARBAGE.md)
    * [Модули](python/modules/README.md)
       * [Импортирование](python/modules/IMPORT.md)
    * [Документация](python/doc/README.md)
