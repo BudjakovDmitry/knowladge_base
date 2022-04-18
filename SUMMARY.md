@@ -80,7 +80,6 @@
       * [ZeroDivisionError](python/exceptions/ZERO_DIVISION_ERROR.md)
    * [Оформление кода](python/format/README.md)
    * Стандартная библиотека
-      * [importlib](python/stl/IMPORTLIB.md)
       * [math](python/stl/MATH.md)
       * [os](python/stl/OS.md)
       * [pathlib](python/stl/PATHLIB.md)
