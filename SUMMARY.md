@@ -62,7 +62,6 @@
          * [Комплексные числа](python/data_types/numbers/COMPLEX.md)
          * [Инструменты для работы с числами](python/data_types/numbers/BUILT-INS.md)
       * Строки
-         * [Методы](python/data_types/strings/METHODS.md)
          * [Форматирование](python/data_types/strings/FORMATTING.md)
       * [Списки](python/data_types/lists/README.md)
          * [Методы](python/data_types/lists/METHODS.md)
