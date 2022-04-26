@@ -34,7 +34,6 @@
          * [wget](linux/internet/WGET.md)
       * Архивы
          * [zip](linux/archives/ZIP.md)
-         * [tar](linux/archives/TAR.md)
       * Поиск
          * [find](linux/search/FIND.md)
          * [grep](linux/search/GREP.md)
