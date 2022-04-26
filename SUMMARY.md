@@ -32,8 +32,6 @@
          * [sed](linux/text/SED.md)
       * Интернет
          * [wget](linux/internet/WGET.md)
-      * Архивы
-         * [zip](linux/archives/ZIP.md)
       * Поиск
          * [find](linux/search/FIND.md)
          * [grep](linux/search/GREP.md)
