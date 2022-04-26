@@ -35,7 +35,6 @@
       * Архивы
          * [zip](linux/archives/ZIP.md)
          * [gzip](linux/archives/GZIP.md)
-         * [bzip](linux/archives/BZIP.md)
          * [tar](linux/archives/TAR.md)
       * Поиск
          * [find](linux/search/FIND.md)
