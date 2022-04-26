@@ -43,8 +43,6 @@
       * [Вкладки терминала](linux/tabs/README.md)
       * [tmux](linux/tmux/README.md)
    * [конвейер (pipe)](linux/stdin/PIPE.md)
-   * Переменные окружени
-      * [PATH](linux/env/PATH.md)
 * [Markdown](markdown/README.md)
    * [Таблицы](markdown/TABLES.md)
 * [Python](python/README.md)
