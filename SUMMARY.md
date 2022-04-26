@@ -16,7 +16,6 @@
          * [ps](linux/terminal/PS.md)
          * [top](linux/terminal/TOP.md)
          * [which](linux/terminal/WHICH.md)
-      * [Запуск исполняемых файлов](linux/executable/README.md)
       * Программирование на bash
          * [Оболочка](linux/scripting/SHELL.md)
          * [Основы](linux/scripting/BASICS.md)
