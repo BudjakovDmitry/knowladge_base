@@ -9,7 +9,6 @@
          * [clear](linux/terminal/CLEAR.md)
          * [exit](linux/terminal/EXIT.md)
          * [free](linux/terminal/FREE.md)
-         * [jobs](linux/terminal/JOBS.md)
          * [kill](linux/terminal/KILL.md)
          * [lscpu](linux/terminal/LSCPU.md)
          * [mv](linux/terminal/MV.md)
