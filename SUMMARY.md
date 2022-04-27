@@ -165,8 +165,6 @@
    * [Контейнер](docker/CONTAINER.md)
    * [Registry](docker/REGISTRY.md)
    * [Docker compose](docker/docker-compose/README.md)
-* CI/CD
-   * [GutHub Actions](cicd/github_actions/README.md)
 * [Nginx](nginx/README.md)
    * [Сравнение Nginx и Apache](nginx/NGINX_APACHE.md)
    * [Установка](nginx/SETUP.md)
