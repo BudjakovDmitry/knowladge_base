@@ -172,9 +172,6 @@
    * [Раздача татического содержимого](nginx/STATIC_CONTENT.md)
 * HTML
    * Теги
-      * [head](html/tags/HEAD.md)
-      * [html](html/tags/HTML.md)
-      * [p](html/tags/P.md)
       * [pre](html/tags/PRE.md)
       * [style](html/tags/STYLE.md)
       * [title](html/tags/TITLE.md)
