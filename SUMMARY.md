@@ -179,7 +179,6 @@
       * [pre](html/tags/PRE.md)
       * [style](html/tags/STYLE.md)
       * [title](html/tags/TITLE.md)
-* [CSS](css/README.md)
 * [vim](vim/README.md)
 * ООП
    [Полиморфизм](theory/oop/POLYMORPHIZM.md)
