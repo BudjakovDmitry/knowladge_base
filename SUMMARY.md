@@ -1,6 +1,5 @@
 # Summary
 
-* [Introduction](README.md)
 * Linux
    * Terminal
       * [Команды](linux/terminal/COMMANDS.md)
