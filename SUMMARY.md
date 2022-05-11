@@ -170,11 +170,6 @@
    * [Управление конфигурацией](nginx/SIGNALS.md)
    * [Конфигурационный файл](nginx/CONF_FILE.md)
    * [Раздача татического содержимого](nginx/STATIC_CONTENT.md)
-* HTML
-   * Теги
-      * [pre](html/tags/PRE.md)
-      * [style](html/tags/STYLE.md)
-      * [title](html/tags/TITLE.md)
 * [vim](vim/README.md)
 * ООП
    [Полиморфизм](theory/oop/POLYMORPHIZM.md)
