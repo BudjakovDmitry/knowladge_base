@@ -239,28 +239,6 @@ FROM customers
 ORDER BY country ASC, city DESC
 ```
 
-## Distinct
-
-Можно убрать дублирующиеся строки из результата с помощью оператора `DISTINCT`.
-
-```sql
-SELECT DISTINCT column1 FROM tablename;
-```
-
-Выражние distinct может использоваться по нескольким колонкам. В этом случае будут выбраны записи, где уникальными являются комбинации выбранных значений.
-
-```sql
-SELECT DISTINCT column_1, column_2
-FROM tablename;
-```
-
-Ключево слово DISTINCT всегда идет вместе с именем столбца:
-
-```sql
-SELECT count(DISTINCT first_name)
-from employees;
-```
-
 ## Limit
 
 Limit ограничивает количество выводимых записей. Ключевое слово LIMIT ставится в запросе в самом конце.
