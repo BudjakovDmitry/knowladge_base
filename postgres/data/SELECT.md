@@ -148,38 +148,6 @@ FROM orders
 WHERE order_date IS NOT NULL;
 ```
 
-## Order by
-
-Результат запроса можно отсортировать в нужном порядке с помощью предложения `ORDER BY`. Сортировать можно по одному или нескольким столбцам. Когда мы сортируем по нескольким столбцам, то сортировка по каждому следующему столбцу не будет нарушать сортировки по предыдущим столбцам.
-
-Пример сортировки по одному столбцу.
-
-```sql
-SELECT * FROM tablename ORDER BY column1;
-```
-
-Пример сортировки по двум столбцам
-
-```sql
-SELECT * FROM tablename ORDER BY column1, column3;
-```
-
-Порядок сортировки задается ключевыми словами `ASC` (по возрастанию) и `DESC` (по убыванию). По умолчанию используется ASC.
-
-```sql
-SELECT DISTINCT country
-FROM customers
-ORDER BY country ASC;
-
-SELECT DISTINCT country
-FROM customers
-ORDER BY country DESC;
-
-SELECT DISTINCT country, city
-FROM customers
-ORDER BY country ASC, city DESC
-```
-
 ## Limit
 
 Limit ограничивает количество выводимых записей. Ключевое слово LIMIT ставится в запросе в самом конце.
