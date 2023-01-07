@@ -98,24 +98,6 @@ WHERE salary > ALL(SELECT salary
                    WHERE d.city = 'Moscow');
 ```
 
-### Check on NULL
-
-Ингода возникает задача отфильтровать строки по NULL. То есть найти строки, у которых какой-либо атрибут принимает значение NULL или наоборот не принимает значение NULL.
-
-Для того, чтобы проверить значение на равенство NULL используется синтаксис: `IS NULL` и `IS NOT NULL`. Проверки вида `value = NULL` или `value != NULL` являются грубой ошибкой.
-
-```sql
--- найти все заказы, которые еще не были отправлены
-SELECT *
-FROM orders
-WHERE order_date IS NULL;
-
--- найти все отправленные заказы
-SELECT *
-FROM orders
-WHERE order_date IS NOT NULL;
-```
-
 ## Group by
 
 Group by в запросе располагается между where и order by.
