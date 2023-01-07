@@ -64,24 +64,6 @@ FROM employees;
 
 ## where
 
-### in, not in
-
-```sql
-SELECT *
-FROM customers
-WHERE country IN ('Germany', 'USA', 'UK', 'Holland');
-```
-
-Будут выбраны все клиенты, проживающие в странах, указанных в списке.
-
-```sql
-SELECT *
-FROM customers
-WHERE country NOT IN ('Germany', 'USA', 'UK');
-```
-
-Будут выбраны все клиенты, которые проживают в странах, отличных от указанных в списке.
-
 ### ANY, ALL
 
 Операторы (квантификаторы) ANY и ALL используются с предложением WHERE и HAVING. Внутри ANY и ALL пишутся подзапросы.
