@@ -116,19 +116,6 @@ FROM orders
 WHERE order_date IS NOT NULL;
 ```
 
-## Limit
-
-Limit ограничивает количество выводимых записей. Ключевое слово LIMIT ставится в запросе в самом конце.
-
-```sql
--- вывести первые 10 имен сотрудников с вамилией Smith, отсортированных по дате их приема на работу.
-SELECT first_name, last_name
-FROM employees
-WHERE last_name = 'Smith'
-ORDER BY employment_date
-LIMIT 10;
-```
-
 ## Group by
 
 Group by в запросе располагается между where и order by.
