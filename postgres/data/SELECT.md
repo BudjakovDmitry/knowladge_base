@@ -100,24 +100,6 @@ WHERE salary > ALL(SELECT salary
 
 ## Group by
 
-Group by в запросе располагается между where и order by.
-
-Пример: посчитать количество заказов, вес которых превышает 50 кг, отправляемых в каждую страну и отсортировать по колчеству.
-```sql
-SELECT ship_country, COUNT(*)
-FROM orders
-WHERE freight > 50
-GROUP BY ship_country
-ORDER BY COUNT(*) DESC;
-
--- посчитать сумму товаров в продаже по каждой категории
-SELECT category_id, SUM(units_in_stock)
-FROM products
-GROUP BY category_id
-ORDER BY SUM(units_in_stock) DESC
-LIMIT 5;
-```
-
 ### Having
 
 HAVING, также как и WHERE, служит для фильтрации строк. Но where фильтрует строки до группировки, а having фильтрует после группировки. Соответственно, having имеет смысл использовать только вместе с group by.
