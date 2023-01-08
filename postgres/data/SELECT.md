@@ -98,23 +98,6 @@ WHERE salary > ALL(SELECT salary
                    WHERE d.city = 'Moscow');
 ```
 
-## Group by
-
-### Having
-
-HAVING, также как и WHERE, служит для фильтрации строк. Но where фильтрует строки до группировки, а having фильтрует после группировки. Соответственно, having имеет смысл использовать только вместе с group by.
-
-```sql
--- вывести категории товаров, в которых продаж осуществляется больше чем на указанную сумму.
--- причем нас интересуют только те товары, которые будут впредь продаваться (discontinued <> 1)
-SELECT category_id, SUM(unit_price * units_in_stock)
-FROM products
-WHERE discontinued <> 1
-GROUP BY category_id
-HAVING SUM(unit_price * units_in_stock) > 5000
-ORDER BY SUM(unit_price * units_in_stock) DESC;
-```
-
 ## Операции над множествами
 
 В данном разделе описаны операции над множествами: объединение (union), пересечение (intersect) и исключение.
