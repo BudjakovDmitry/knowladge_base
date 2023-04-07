@@ -1,16 +1,5 @@
 # Соединения
 
-## Внутренние соединения
-
-Внутренее соединение можно записать используя другой синтаксис:
-
-```sql
-SELECT country, city
-FROM countries, cities
-WHERE countries.id = cities.country_od
-ORDER BY country;
-```
-
 ## Внешние соединения
 
 К внешним соединениям относятся LEFT JOIN и RIGHT JOIN.
