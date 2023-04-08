@@ -1,58 +1,5 @@
 # Соединения
 
-## Self join
-
-Self join чаще всего нужен, чтобы построить некую иерархию данных. По русски такое соединение называется _замкнутым соединением_. Для примера будем использовать таблицу employee.
-
-```sql
-CREATE TABLE employee
-(
-    id INTEGER PRIMARY KEY,
-    first_name VARCHAR(255) NOT NULL,
-    last_name VARCHAR(255) NOT NULL,
-    manager_id INTEGER,
-    FOREIGN KEY (managet_id) REFERENCES employee (id)
-);
-```
-
-Особенность: manager_id - это внешний ключ, который ссылается на первичный ключ id в этой жее таблице. Это означает, что у работника может быть менеджер, который является такми же работником и у него может быть свой менеджер и т.д.
-
-Заполняем таблицу данными.
-
-id | first_name | last_name | manager_id
---- | --- | --- | ---
-1 | Windy | Hays | NULL
-2 | Ava | Christensen | 1
-3 | Hassan | Conner | 1
-4 | Anna | Revers | 2
-5 | Sau | Norman | 2
-6 | Kelsie | Hays | 3
-7 | Tory | Goff | 3
-8 | Salley | Lester | 3
-
-Теперь мы хотим вывести имена и фамилии работкиков, а рядом имя и фамилию менеджера этого работника.
-
-```sql
-SELECT e.first_name || ' ' || e.last_name AS employee,
-       m.first_name || ' ' || m.last_name AS manager
-FROM employee e
-    LEFT JOIN employee m ON m.employee_id = e.manager_id
-ORDER BY manager;
-```
-
-employee | manager
---- | ---
-Anna Reeves | Ava Christensen
-Sau Norman | Ava Christensen
-Salley Lester | Hasan Conner
-Kelsie Hays | Hassan Conner
-Tory Goff | Hassan Conner
-Hassan Conner | Windy Hays
-Ava Christensen | Windy Hays
-Windy Hays |
-
-Синтаксически self join не отличается от обычного join, разница в смысле: таблица ссылается не на другую таблицу, а на саму себя.
-
 ## using
 
 Using - это синтаксические сахар для написания кода, связанного с соединениями.
