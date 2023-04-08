@@ -22,7 +22,7 @@ CREATE TABLE employee
 id | first_name | last_name | manager_id
 --- | --- | --- | ---
 1 | Windy | Hays | NULL
-2 | Ava | | Christensen | 1
+2 | Ava | Christensen | 1
 3 | Hassan | Conner | 1
 4 | Anna | Revers | 2
 5 | Sau | Norman | 2
