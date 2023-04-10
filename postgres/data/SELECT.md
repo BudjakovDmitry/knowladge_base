@@ -1,29 +1,5 @@
 # Выборка данных
 
-## Конкатенация
-
-```sql
-SELECT first_name,
-       last_name,
-       first_name || ' ' || last_name AS concat_name
-FROM employees;
-```
-
-first_name | last_name | concat_name
---- | --- | ---
-John | Smith | John Smith
-Dany | Robins | Dany Robins
-Anna | Gray | Anna Gray
-
-Еще можно использовать функцию `CONCAT`
-
-```sql
-SELECT first_name,
-       last_name,
-       CONCAT(first_name, ' ', last_name)
-FROM employees;
-```
-
 ## where
 
 ### ANY, ALL
