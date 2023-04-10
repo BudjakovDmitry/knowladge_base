@@ -1,43 +1,5 @@
 # Выборка данных
 
-## Псевднимы
-
-Оператор `AS` позволяет задать имя исходному столбцу (слово AS можно опустить).
-
-```sql
-SELECT count(*) AS employees_count
-FROM employees;
-```
-
-Такими псевдонимами не получится воспользоваться в условии WHERE, потому что, когда отрабатывает WHERE, псевдонимы еще не назначены. Сначала отрабатывают FROM и WHERE, а потом SELECT. Аналогично не получится воспользоваться псевдонимами в HAVING.
-
-Псевдонимами можно пользоваться в GROUP BY и ORDER BY, так как эти части отрабатывают после того, как произойдет SELECT. Также псевдонимы можно использоваться в подзапросах.
-
-```sql
-SELECT city, count(*) as employees_count
-FROM employees
-GROUP BY city
-ORDER BY employees_count DESC;
-```
-
-```sql
-SELECT category_id, SUM(unit_price * units_in_stock) AS total_price
-FROM products
-WHERE discontinued <> 1
-GROUP BY category_id
-HAVING SUM(unit_price * units_in_stock) > 5000 --не получится воспользоваться псевдонимом.
-ORDER BY total_price DESC;
-```
-
-Псевдонмы можно давать таблицам.
-
-```sql
-SELECT *
-FROM employees e
-    JOIN departments d ON d.id = e.department_id
-WHERE d.city = 'Tokyo';
-```
-
 ## Конкатенация
 
 ```sql
