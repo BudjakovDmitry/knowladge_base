@@ -95,9 +95,3 @@ ALTER TABLE table_name ALTER COLUMN column_name SET DATA TYPE data_type;
 ```sql
 ALTER TABLE table_name RENAME old_column_name TO new_column_name;
 ```
-
-## Переименование таблицы
-
-```sql
-ALTER TABLE table_name RENAME TO new_table_name;
-```
