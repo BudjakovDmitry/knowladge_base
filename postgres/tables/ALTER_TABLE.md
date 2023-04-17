@@ -89,9 +89,3 @@ ALTER TABLE products ALTER COLUMN price DROP DEFAULT;
 ```sql
 ALTER TABLE table_name ALTER COLUMN column_name SET DATA TYPE data_type;
 ```
-
-## Переименование столбца
-
-```sql
-ALTER TABLE table_name RENAME old_column_name TO new_column_name;
-```
