@@ -10,11 +10,6 @@ ALTER TABLE products
 ALTER COLUMN price SET DEFAULT 100;
 
 ALTER TABLE products ADD CONSTRAINT some_name UNIQUE (product_no);
-
-ALTER TABLE products ADD FOREIGN KEY (product_group_id)
-    REFERENCES product_groups;
-
-ALTER TABLE products ADD PRIMARY KEY (products_id);
 ```
 
 Чтобы добавить ограничение NOT NULL, которое нельзя записать в виде ограничения таблицы, используется синтаксис:
