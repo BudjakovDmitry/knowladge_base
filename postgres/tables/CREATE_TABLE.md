@@ -23,16 +23,6 @@ CREATE TABLE progress
 
 ## Ограничения
 
-У всех ограничений есть имена. Имена можно задавать либо самостоятельно, либо они будут сгенерированы автоматически. Имена можно посмотреть, выполнив запрос
-
-```sql
-SELECT constraint_name
-FROM information_schema.key_column_usage
-WHERE table_name = 'students' AND  --имя таблицы
-      table_schema = 'public' AND  --имя схемы
-      column_name = 'student_id';  --фильтр по конкретному столбцу
-```
-
 ### CHECK
 
 Ограничение-проверка.
