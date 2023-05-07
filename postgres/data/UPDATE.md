@@ -1,24 +1,5 @@
 # Изменение данных
 
-Данные в существующих строках можно изменять, используя команду `UPDATE`.
-
-Обновим значения raiting и author_id в таблце book для записи с book_id = 2
-
-```sql
-UPDATE book
-SET raiting = 5, author_id = 10
-WHERE book_id = 2;
-```
-
-Можно обновлять значения на основе существующих, например увеличивать или уменьшать.
-
-```sql
-UPDATE weather
-SET temp_hi = temp_hi - 2,
-    temp_lo = temp_lo - 2
-WHERE date > '1994-11-28';
-```
-
 ## Returning
 
 Returning - это инструкция, которая позволяет вернуть данные по модифицированной строке в результе выполнения команд UPDATE, DELETE или INSERT.
